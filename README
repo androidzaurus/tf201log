@@ -19,10 +19,10 @@ cpuinfo.txt
 	/proc/cpuinfo
 
 df.txt
-	df
+	adb shell df
 
 dmesg.txt
-	dmesg
+	adb shell dmesg
 
 dot.config
 	/prco/config.gz
@@ -43,7 +43,7 @@ meminfo.txt
 	/proc/meminfo
 
 mount.txt
-	mount
+	adb shell mount
 
 normalmode.sh
 	/system/etc/normalmode.sh
