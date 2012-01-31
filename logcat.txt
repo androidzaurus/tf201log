@@ -1,0 +1,1084 @@
+--------- beginning of /dev/log/system
+I/Vold    (  103): Vold 2.1 (the revenge) firing up
+D/Vold    (  103): USB mass storage support is not enabled in the kernel
+D/Vold    (  103): Volume microsd state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  103): *********** Success!! "ro.epad.mount_point.microsd=/Removable/MicroSD"
+D/Vold    (  103): Volume usbdisk1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  103): *********** Success!! "ro.epad.mount_point.usbdisk1=/Removable/USBdisk1"
+D/Vold    (  103): Volume usbdisk2 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  103): *********** Success!! "ro.epad.mount_point.usbdisk2=/Removable/USBdisk2"
+D/Vold    (  103): Volume sdreader state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  103): *********** Success!! "ro.epad.mount_point.sdreader=/Removable/SD"
+D/Vold    (  103): checkUsbdisk sucess.
+D/Vold    (  103): USB disconnected
+D/Vold    (  103): USB connected
+I/SystemServer(  179): Entered the Android system server!
+I/SystemServer(  179): Entropy Service
+I/SystemServer(  179): Power Manager
+D/PowerManagerService(  179): @PowerManagement: possible PowerON {time since boot = 10s}
+I/SystemServer(  179): Activity Manager
+I/ActivityManager(  179): Memory class: 48
+D/PowerProfile(  179): read epad power profile:/system/etc/power_profile/TF201_power_profile.xml
+D/PowerProfile(  179): can not find file:/system/etc/power_profile/TF201_power_profile.xml
+D/PowerProfile(  179): Can not read epad power porfile, use default
+I/SystemServer(  179): Telephony Registry
+I/SystemServer(  179): Package Manager
+I/Installer(  179): connecting...
+W/PackageManager(  179): Exception reading library: /system/lib/drm/libdrmwvmplugin.so
+W/PackageManager(  179): java.io.IOException: /system/lib/drm/libdrmwvmplugin.so
+W/PackageManager(  179): 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+W/PackageManager(  179): 	at com.android.server.PackageManagerService.<init>(PackageManagerService.java:871)
+W/PackageManager(  179): 	at com.android.server.PackageManagerService.main(PackageManagerService.java:709)
+W/PackageManager(  179): 	at com.android.server.ServerThread.run(SystemServer.java:157)
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.zenstudios.ZenPinball-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.uphyca.android.app.bandoclock-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.antutu.ABenchMark-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.google.zxing.client.android-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.dama.papercamera-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.sketchbook-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.evernote.skitch-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.evernote-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.dataviz.docstogoapp-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.dataviz.docstogo-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.adobe.reader-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.dropbox.android-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.pogoplug.android-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.thedeck.android.app-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.the511plus.MultiTouchTester-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/jp.r246.twicca-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.justsystems.atokmobile.service-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.aldiko.android.oreilly.programmingscala-1.apk
+--------- beginning of /dev/log/main
+D/dalvikvm(  179): GC_CONCURRENT freed 272K, 5% free 8670K/9031K, paused 2ms+5ms
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.nvidia.tegrazone-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.google.android.apps.maps-1.apk
+D/dalvikvm(  179): GC_CONCURRENT freed 582K, 8% free 8678K/9351K, paused 2ms+3ms
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.google.android.apps.plus-1.apk
+D/dalvikvm(  179): GC_CONCURRENT freed 350K, 5% free 8973K/9415K, paused 18ms+4ms
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.google.android.music-1.apk
+D/dalvikvm(  179): GC_CONCURRENT freed 658K, 8% free 8985K/9735K, paused 2ms+4ms
+W/PackageParser(  179): Unknown element under <manifest>: supports-gl-texture at /data/app/com.nvidia.demo.glowball-1.apk Binary XML file line #15
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.nvidia.demo.glowball-1.apk
+W/PackageParser(  179): Unknown element under <manifest>: supports-gl-texture at /data/app/com.vectorunit.bluedemo-1.apk Binary XML file line #30
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.vectorunit.bluedemo-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app/com.android.vending-1.apk
+D/dalvikvm(  179): GC_CONCURRENT freed 522K, 7% free 9185K/9799K, paused 2ms+6ms
+W/ResourceType(  179): Failure getting entry for 0x7f020155 (t=1 e=341) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/ResourceType(  179): Failure getting entry for 0x7f0e0048 (t=13 e=72) in package 0 (error -75)
+W/PackageManager(  179): Package tv.ustream.ustream desires unavailable shared library jp.co.sharp.android.hardware; ignoring!
+I/PackageManager(  179): Unpacking native libraries for /data/app/tv.ustream.ustream-1.apk
+W/PackageParser(  179): Unknown element under <manifest>: ImageView at /data/app-private/Cam.SILENT-1.apk Binary XML file line #12
+I/PackageManager(  179): Unpacking native libraries for /data/app-private/Cam.SILENT-1.apk
+I/PackageManager(  179): Unpacking native libraries for /data/app-private/com.androidtsubu.ramentimer-1.apk
+I/PackageManager(  179): Time to scan packages: 47.509 seconds
+W/PackageManager(  179): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  179): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+D/dalvikvm(  179): GC_CONCURRENT freed 761K, 9% free 9140K/9991K, paused 2ms+5ms
+W/PackageManager(  179): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  179): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.infraware.PolarisOfficeForTablet
+W/PackageManager(  179): Unknown permission android.permission.WRITE_OWNER_DATA in package com.infraware.PolarisOfficeForTablet
+W/PackageManager(  179): Unknown permission android.permission.READ_OWNER_DATA in package com.infraware.PolarisOfficeForTablet
+W/PackageManager(  179): Not granting permission android.permission.ACCOUNT_MANAGER to package com.google.android.music (protectionLevel=2 flags=0x8bee5)
+W/PackageManager(  179): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+W/PackageManager(  179): Unknown permission android.permission.READ_OWNER_DATA in package com.android.exchange
+W/PackageManager(  179): Unknown permission android.permission.READ_OWNER_DATA in package com.android.email
+W/PackageManager(  179): Unknown permission com.android.providers.im.permission.READ_ONLY in package com.google.android.apps.maps
+W/PackageManager(  179): Unknown permission com.google.android.providers.gmail.permission.READ_GMAIL in package com.dataviz.docstogo
+W/PackageManager(  179): Not granting permission android.permission.DEVICE_POWER to package com.ecareme.asuswebstorage (protectionLevel=2 flags=0x8be45)
+W/PackageManager(  179): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.google.android.videoeditor
+W/PackageManager(  179): Unknown permission com.android.vending.permission.UPDATE_MARKET_FAILURE in package com.android.vending.updater
+W/PackageManager(  179): Unknown permission com.google.android.apps.googlevoice.permission.AUTO_SEND in package com.google.android.voicesearch
+W/PackageManager(  179): Unknown permission android.permission.READ_OWNER_DATA in package com.android.setupwizard
+W/PackageManager(  179): Unknown permission android.permission.WRITE_OWNER_DATA in package com.android.setupwizard
+W/PackageManager(  179): Not granting permission com.google.android.gm.permission.READ_GMAIL to package com.google.android.apps.uploader (protectionLevel=2 flags=0x8be45)
+W/PackageManager(  179): Unknown permission android.permission.READ_PROFILE in package com.google.android.apps.plus
+W/PackageManager(  179): Unknown permission android.permission.WRITE_PROFILE in package com.google.android.apps.plus
+W/PackageManager(  179): Unknown permission android.permission.READ_SOCIAL_STREAM in package com.google.android.apps.plus
+W/PackageManager(  179): Unknown permission android.permission.WRITE_SOCIAL_STREAM in package com.google.android.apps.plus
+W/PackageManager(  179): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.android.vending
+W/PackageManager(  179): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0xabec5)
+W/PackageManager(  179): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+W/PackageManager(  179): Unknown permission android.permission.READ_SETTINGS in package com.android.screenshot
+D/dalvikvm(  179): GC_FOR_ALLOC freed 736K, 14% free 8674K/9991K, paused 33ms
+D/dalvikvm(  179): GC_EXPLICIT freed 260K, 14% free 8646K/9991K, paused 3ms+2ms
+I/SystemServer(  179): Account Manager
+D/PackageManager(  179): generateServicesMap(android.accounts.AccountAuthenticator): 3 services unchanged
+I/SystemServer(  179): Content Manager
+D/PackageManager(  179): generateServicesMap(android.content.SyncAdapter): 13 services unchanged
+I/ActivityThread(  179): Pub settings: com.android.providers.settings.SettingsProvider
+I/SystemServer(  179): System Content Providers
+I/ActivityThread(  179): Pub applock_mode: com.asus.lock.provider.AppLockProvider
+D/SettingsProvider(  179): cache for settings table 'secure' rows=44; fullycached=true
+D/SettingsProvider(  179): cache for settings table 'system' rows=67; fullycached=true
+I/SystemServer(  179): Lights Service
+I/SystemServer(  179): Battery Service
+D/BatteryService(  179): level:100 scale:100 status:5 health:2 present:true dock_status:4 dock_level:86 dock_ac_online:true voltage: 8 temperature: 282 technology: Li-ion AC powered:false USB powered:false icon:17302769 invalid charger:0
+I/SystemServer(  179): Vibrator Service
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Screen Dim' flags [screen_dim]
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Partial' flags [partial]
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Screen Dim' flags [screen_dim]
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Partial' flags [partial]
+D/AlarmManagerService(  179): Kernel timezone updated to -540 minutes west of GMT
+I/SystemServer(  179): Alarm Manager
+I/SystemServer(  179): Init Watchdog
+I/SystemServer(  179): Window Manager
+I/InputManager(  179): Initializing input manager
+W/ProcessStats(  179): Skipping unknown process pid 229
+I/power   (  179): *** set_screen_state 1
+I/InputManager-JNI(  179): Setting touchpad mode to 1.
+D/PowerManagerService(  179): userActivityWithIntent
+D/PowerManagerService(  179): @PowerManagement: Screen Bright {false -> true}
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'sleep_broadcast' flags [partial] refcount=1
+D/PowerManagerService(  179): userActivityWithIntent, send wakeup intent to Keyguard
+I/InputManager(  179): Starting input manager
+I/EventHub(  179): New device: id=1, fd=103, path='/dev/input/event7', name='elantech_touchscreen', classes=0x80000014, configuration='/system/usr/idc/elantech_touchscreen.idc', keyLayout='', keyCharacterMap='', builtinKeyboard=false
+D/EventHub(  179): No input device configuration file found for device 'tegra_dc1.input_tick'.
+D/EventHub(  179): No input device configuration file found for device 'tegra_dc0.input_tick'.
+D/EventHub(  179): No input device configuration file found for device 'gpio-keys'.
+I/SystemServer(  179): Bluetooth Service
+I/EventHub(  179): New device: id=4, fd=104, path='/dev/input/event3', name='gpio-keys', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/gpio-keys.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false
+D/EventHub(  179): No input device configuration file found for device 'tegra-kbc'.
+I/EventHub(  179): New device: id=5, fd=106, path='/dev/input/event4', name='tegra-kbc', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/tegra-kbc.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false
+I/EventHub(  179): New device: id=6, fd=107, path='/dev/input/event5', name='atmel-maxtouch', classes=0x14, configuration='/system/usr/idc/atmel-maxtouch.idc', keyLayout='', keyCharacterMap='', builtinKeyboard=false
+I/EventHub(  179): New device: id=7, fd=108, path='/dev/input/event6', name='asusdec', classes=0x3, configuration='/system/usr/idc/asusdec.idc', keyLayout='/system/usr/keylayout/asusdec-ja_JP.kl', keyCharacterMap='/system/usr/keychars/asusdec-ja_JP.kcm', builtinKeyboard=false
+D/EventHub(  179): No input device configuration file found for device 'lid_input'.
+I/EventHub(  179): New device: id=8, fd=109, path='/dev/input/event2', name='lid_input', classes=0x80, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false
+I/InputReader(  179): Device added: id=8, name='lid_input', sources=0x80000000
+I/InputReader(  179): Device added: id=7, name='asusdec', sources=0x00000101
+I/InputReader(  179): Device added: id=6, name='atmel-maxtouch', sources=0x00001002
+I/InputReader(  179): Device added: id=5, name='tegra-kbc', sources=0x00000101
+I/InputReader(  179): Device added: id=4, name='gpio-keys', sources=0x00000101
+I/InputReader(  179): Device added: id=1, name='elantech_touchscreen', sources=0x0010200a
+I/BluetoothProfileState(  179): Message:Entering Stable State
+I/BluetoothProfileState(  179): Message:Entering Stable State
+I/BluetoothProfileState(  179): Message:Entering Stable State
+I/SystemServer(  179): Device Policy
+I/SystemServer(  179): Status Bar
+I/SystemServer(  179): Clipboard Service
+I/SystemServer(  179): Input Method Service
+W/ResourceType(  179): Failure getting entry for 0x7f070000 (t=6 e=0) in package 0 (error -75)
+I/SystemServer(  179): NetStat Service
+I/SystemServer(  179): NetworkManagement Service
+I/SystemServer(  179): Connectivity Service
+D/ConnectivityService(  179): ConnectivityService starting up
+D/dalvikvm(  179): GC_CONCURRENT freed 284K, 11% free 8960K/9991K, paused 2ms+4ms
+D/ConnectivityService(  179): Starting Wifi Service.
+E/WifiHW  (  179): wifi module : 1
+I/WifiService(  179): WifiService starting up with Wi-Fi enabled
+D/NetworkManagmentService(  179): Registering observer
+D/NetworkManagmentService(  179): Registering observer
+I/SystemServer(  179): Throttle Service
+I/SystemServer(  179): Accessibility Manager
+I/SystemServer(  179): Mount Service
+D/MountService(  179): got storage path: /mnt/sdcard description: 内部ストレージ primary: true removable: false emulated: true mtpReserve: 100
+D/MountService(  179): got storage path: /Removable/MicroSD description: MicroSD primary: false removable: true emulated: false mtpReserve: 0
+D/MountService(  179): got storage path: /Removable/USBdisk1 description: Usbdisk1 primary: false removable: true emulated: false mtpReserve: 0
+D/MountService(  179): got storage path: /Removable/USBdisk2 description: Usbdisk2 primary: false removable: true emulated: false mtpReserve: 0
+D/MountService(  179): got storage path: /Removable/SD description: SD primary: false removable: true emulated: false mtpReserve: 0
+D/MountService(  179): using emulated external storage
+I/SystemServer(  179): Notification Manager
+D/VoldCmdListener(  103): volume list
+W/MountService(  179): Duplicate state transition (removed -> removed) for /Removable/MicroSD
+I/SystemServer(  179): Device Storage Monitor
+I/SystemServer(  179): Location Manager
+I/SystemServer(  179): Country Detector
+I/SystemServer(  179): Search Service
+W/MountService(  179): Duplicate state transition (removed -> removed) for /Removable/USBdisk1
+W/MountService(  179): Duplicate state transition (removed -> removed) for /Removable/USBdisk2
+W/MountService(  179): Duplicate state transition (removed -> removed) for /Removable/SD
+D/VoldCmdListener(  103): share status ums
+I/SystemServer(  179): DropBox Service
+I/SystemServer(  179): Wallpaper Service
+I/SystemServer(  179): Audio Service
+W/System.err(  179): Error reading from ./android/widget/ViewStub.class
+W/System.err(  179): Error reading from ./android/webkit/ViewStub.class
+I/AudioService(  179):  AudioFocus  abandonAudioFocus() from AudioFocus_For_Phone_Ring_And_Calls
+W/        (  109): setPhoneState() setting same state 0
+W/UsbDeviceSettingsManager(  179): settings file not found
+I/SystemServer(  179): Dock Observer
+I/SystemServer(  179): Wired Accessory Observer
+I/SystemServer(  179): USB Observer
+I/SystemServer(  179): UI Mode Manager Service
+I/SystemServer(  179): Firmware Manager Service
+I/SystemServer(  179): Dock Manager Service
+D/dalvikvm(  179): GC_FOR_ALLOC freed 227K, 9% free 9150K/9991K, paused 63ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 9.141MB for 129616-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed 21K, 9% free 9255K/10119K, paused 50ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 3K, 9% free 9253K/10119K, paused 36ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 9.243MB for 129616-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed 0K, 9% free 9380K/10247K, paused 36ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 9% free 9381K/10247K, paused 36ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 9.367MB for 129616-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed 1K, 9% free 9506K/10375K, paused 36ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 9% free 9507K/10375K, paused 36ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 9.490MB for 129616-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed 0K, 9% free 9634K/10503K, paused 34ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 2K, 9% free 9634K/10503K, paused 36ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 9.614MB for 129616-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 9% free 9761K/10631K, paused 33ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 9% free 9898K/10759K, paused 36ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 1K, 8% free 10024K/10887K, paused 34ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 8% free 10151K/11015K, paused 34ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 8% free 10405K/11271K, paused 37ms
+I/SystemServer(  179): Backup Service
+D/Tethering(  179): wlan0 is not a tetherable iface, ignoring
+D/WifiStateMachine(  179): Driver load successful
+D/WifiStateMachine(  179): Supplicant start successful
+I/BackupManagerService(  179): Found stale backup journal, scheduling
+I/BackupManagerService(  179):   com.android.providers.settings
+I/WindowManager(  179): SAFE MODE not enabled
+D/dalvikvm(  179): JIT started for system_server
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/BackupManagerService(  179): Backup enabled => true
+D/AlarmManager(  179): Added alarm Alarm{40b21f78 type 0 android} type:RTC_WAKEUP when: At 12/01/23 12:24 repeatInterval: 1h:2m:30.0s
+I/SystemServer(  179): AppWidget Service
+I/SystemServer(  179): Recognition Service
+I/SystemServer(  179): DiskStats Service
+I/SystemServer(  179): SamplingProfiler Service
+I/SystemServer(  179): NetworkTimeUpdateService
+I/SystemServer(  179): UpdateLauncher Service
+I/ActivityManager(  179): Config changed: {1.0 0mcc0mnc ja_JP sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/h s.1}
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/Zygote  (  179): Process: zygote socket opened
+D/PowerManagerService(  179): system ready!
+I/ActivityManager(  179): System now ready
+I/SystemServer(  179): Making services ready
+D/SystemServer(  179): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  179): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=277 uid=1000 gids={3003, 1015, 3002, 3001}
+I/ActivityManager(  179): Config changed: {1.0 0mcc0mnc ja_JP sw800dp w1280dp h752dp xlrg land finger qwerty/v/v -nav/h s.2}
+D/dalvikvm(  179): GC_FOR_ALLOC freed 473K, 7% free 10769K/11527K, paused 42ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 11.344MB for 781472-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed 3K, 7% free 11529K/12295K, paused 40ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 15K, 6% free 11708K/12423K, paused 42ms
+D/SystemUIService(  277): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService(  277): running: com.android.systemui.statusbar.tablet.TabletStatusBar@4080f2a0
+I/StatusBar.HeightReceiver(  277): Resizing status bar plugged=false height=48 old=0
+D/UnlockScreen(  179): landscape mode
+D/dalvikvm(  277): GC_CONCURRENT freed 113K, 4% free 6635K/6855K, paused 3ms+2ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 53K, 5% free 12584K/13191K, paused 39ms
+I/ActivityManager(  179): Start proc jp.co.fsi.fskaren for service jp.co.fsi.fskaren/.FSIME: pid=286 uid=10054 gids={1015}
+D/UnlockScreen(  179): mode normal
+D/NetworkManagmentService(  179): Registering observer
+I/ActivityManager(  179): Start proc com.google.android.gsf.login for service com.google.android.gsf.login/com.google.android.gsf.loginservice.GoogleLoginService: pid=292 uid=10028 gids={3003, 1015, 2001, 1007}
+D/dalvikvm(  277): GC_FOR_ALLOC freed 16K, 4% free 6730K/6983K, paused 27ms
+I/dalvikvm-heap(  277): Grow heap (frag case) to 7.210MB for 593936-byte allocation
+I/ActivityManager(  179): Start proc com.android.phone for added application com.android.phone: pid=298 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(  179): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher } from pid 0
+D/SntpClient(  179): request time failed: java.net.UnknownHostException: Unable to resolve host "xtra1.gpsonextra.net": No address associated with hostname
+D/SntpClient(  179): request time failed: java.net.UnknownHostException: Unable to resolve host "xtra1.gpsonextra.net": No address associated with hostname
+D/SntpClient(  179): request time failed: java.net.UnknownHostException: Unable to resolve host "xtra1.gpsonextra.net": No address associated with hostname
+D/libEGL  (  179): loaded /system/lib/egl/libGLES_android.so
+I/ActivityManager(  179): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=310 uid=1000 gids={3003, 1015, 3002, 3001}
+D/libEGL  (  179): loaded /system/lib/egl/libEGL_tegra.so
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Screen Dim' flags [screen_dim]
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Partial' flags [partial]
+D/PowerManagerService(  179): IntentUserActivityLocked, send wakeup intent to Keyguard
+I//system/bin/tc(  104): Cannot find device "rmnet0"
+I/logwrapper(  104): /system/bin/tc terminated by exit(1)
+D/libEGL  (  179): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+E/BluetoothService(  179): FileNotFoundException while trying to read dock address
+D/dalvikvm(  277): GC_CONCURRENT freed 1K, 5% free 7309K/7623K, paused 2ms+2ms
+I/DockObserver(  179): Dock state changed: 10 name: TF201-DOCK-0206
+I/ActivityManager(  179): Start proc com.android.settings for broadcast com.android.settings/.bluetooth.DockEventReceiver: pid=330 uid=1000 gids={3003, 1015, 3002, 3001}
+D/libEGL  (  179): loaded /system/lib/egl/libGLESv2_tegra.so
+I//system/bin/tc(  104): Cannot find device "rmnet0"
+I/logwrapper(  104): /system/bin/tc terminated by exit(1)
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I//system/bin/tc(  104): Cannot find device "ifb0"
+I/logwrapper(  104): /system/bin/tc terminated by exit(1)
+D/SntpClient(  179): request time failed: java.net.UnknownHostException: Unable to resolve host "xtra1.gpsonextra.net": No address associated with hostname
+D/SntpClient(  179): request time failed: java.net.UnknownHostException: Unable to resolve host "xtra1.gpsonextra.net": No address associated with hostname
+D/OpenGLRenderer(  179): Creating OpenGL renderer caches
+D/OpenGLRenderer(  179): Enabling debug mode 0
+D/OpenGLRenderer(  179): Layers will be composited as regions
+D/UnlockScreen(  179): mode normal
+D/dalvikvm(  277): GC_FOR_ALLOC freed <1K, 5% free 7310K/7623K, paused 64ms
+I/ActivityThread(  298): Pub telephony: com.android.providers.telephony.TelephonyProvider
+I/dalvikvm-heap(  277): Grow heap (frag case) to 7.873MB for 694160-byte allocation
+I/ActivityThread(  298): Pub icc: com.android.phone.IccProvider
+I/ActivityThread(  298): Pub mms: com.android.providers.telephony.MmsProvider
+I/ActivityThread(  298): Pub sms: com.android.providers.telephony.SmsProvider
+I/ActivityThread(  298): Pub mms-sms: com.android.providers.telephony.MmsSmsProvider
+I/ActivityThread(  310): Pub com.android.launcher2.settings: com.android.launcher2.LauncherProvider
+I/ActivityManager(  179): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=344 uid=10028 gids={3003, 1015, 2001, 1007}
+D/dalvikvm(  277): GC_CONCURRENT freed <1K, 5% free 7988K/8327K, paused 2ms+2ms
+W/ActivityManager(  179): Unable to start service Intent { act=com.android.internal.telephony.IWapPushManager }: not found
+D/GpsLocationProvider(  179): set_capabilities_callback: 15
+D/gps_BRCM(  179): gps_control_thread_init
+D/gps_BRCM(  179): gps thread running
+D/dalvikvm(  277): GC_FOR_ALLOC freed 1K, 4% free 8036K/8327K, paused 57ms
+I/dalvikvm-heap(  277): Grow heap (frag case) to 8.410MB for 513744-byte allocation
+D/CAT     (  298): CatService: Is running
+D/CAT     (  298): CatService: NEW sInstance
+D/CallManager(  298): registerPhone(GSM Handler{4080b2d8})
+I/ActivityManager(  179): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=362 uid=10008 gids={3003, 1015}
+W/ActivityManager(  179): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+D/dalvikvm(  277): GC_CONCURRENT freed <1K, 4% free 8538K/8839K, paused 6ms+2ms
+V/BluetoothService(  179): Received ACTION_DOCK_EVENT with State:10
+D/DockManagerService(  179): updateBatterySavingMode, mDockBatterySavingMode:-1 mode:1 force:true
+I/ActivityThread(  344): Pub com.google.settings: com.google.android.gsf.settings.GoogleSettingsProvider
+D/dalvikvm(  286): GC_CONCURRENT freed 122K, 4% free 6533K/6791K, paused 3ms+3ms
+D/dalvikvm(  298): GC_CONCURRENT freed 128K, 4% free 6525K/6727K, paused 3ms+2ms
+I/ActivityManager(  179): Start proc com.asus.UpdateLauncher for broadcast com.asus.UpdateLauncher/.UpdateLauncherIntentReceiver: pid=376 uid=10009 gids={}
+I/ActivityThread(  362): Pub user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+I/TelephonyRegistry(  179): notifyServiceState: 1 home null null null  Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false
+I/ActivityThread(  362): Pub com.android.social: com.android.providers.contacts.SocialProvider
+I/ActivityThread(  362): Pub applications: com.android.providers.applications.ApplicationsProvider
+I/TelephonyRegistry(  179): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+I/TelephonyRegistry(  179): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='gprsDetached' apn='null' apnType=default networkType=0
+D/Bluetooth HSHFP(  298): Starting BluetoothHeadsetService
+W/CallNotifier(  298): Got onMwiChanged() on non-voice-capable device! Ignoring...
+I/ActivityThread(  344): Pub subscribedfeeds: com.google.android.gsf.subscribedfeeds.SubscribedFeedsProvider
+I/ActivityThread(  344): Pub com.google.contacts.gal.provider: com.google.android.syncadapters.contacts.GalProvider
+D/dalvikvm(  107): GC_EXPLICIT freed 11K, 5% free 6274K/6595K, paused 7ms+4ms
+D/NvSystemUIExt_JNI(  277): Register JNI Methods.
+D/NvSystemUIExt_JNI(  277): getProperty(): START, get property persist.sys.NV_STEREOSEP
+D/NvSystemUIExt_JNI(  277): getProperty(): Could GET the property, persist.sys.NV_STEREOSEP = 20
+D/NvSystemUIExt_JNI(  277): getProperty(): FINISHED
+I/ActivityThread(  362): Pub contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+I/ActivityThread(  362): Pub call_log: com.android.providers.contacts.CallLogProvider
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+37ms
+I/ActivityThread(  344): Pub com.google.android.gsf.gservices: com.google.android.gsf.gservices.GservicesProvider
+I/GservicesProvider(  344): Gservices pushing to system: true; secure: true
+I/ActivityThread(  344): Pub com.google.android.providers.talk: com.google.android.gsf.talk.TalkProvider
+E/SharedPreferencesImpl(  179): Couldn't create directory for SharedPreferences file shared_prefs/bluetooth_service_settings.xml
+D/dalvikvm(  277): GC_CONCURRENT freed 38K, 2% free 9186K/9351K, paused 2ms+2ms
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+2ms
+I/ActivityManager(  179): Start proc com.asus.pcsynclauncher for broadcast com.asus.pcsynclauncher/.activity.USBReceiver: pid=398 uid=10027 gids={3003}
+D/NetworkLocationService(  344): onCreate com.google.android.location.NetworkLocationService@408194a8
+D/WifiStateMachine(  179): Supplicant connection established
+D/WifiConfigStore(  179): Loading config and enabling all networks
+D/NetworkLocationClient(  344): ANDROID minProtocolVersion 1 maxProtocolVersion 1 releaseVersion -1
+D/NetworkLocationClient(  344): binding to Intent { act=com.google.android.location.internal.ANDROID_NLP }
+I/LauncherUsbReceiver(  398): USB Receiver : android.hardware.usb.action.USB_STATE
+D/LauncherUsbReceiver(  398): usb connected
+D/LauncherUsbReceiver(  398): extras: Bundle[{adb=enabled, configuration=1, accessory=disabled, rndis=disabled, connected=true, mtp=enabled}]
+V/StatusBar.StereoSepElement(  277): HDMI Display NOT connected
+I/ActivityManager(  179): Start proc com.nvidia.NvCPLSvc for service com.nvidia.NvCPLSvc/.NvCPLService: pid=412 uid=1000 gids={3003, 1015, 3002, 3001}
+I/wpa_supplicant(  271): CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00
+V/WifiMonitor(  179): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00]
+E/        (  179): EC_WAKEUP ioctl, EC_POWER_SAVING_ON success
+D/MobileDataStateTracker(  179): hipri: hipri got ACTION_DATA_CONNECTION_TRACKER_MESSENGER
+D/MobileDataStateTracker(  179): hipri: MdstHandler connected
+D/MobileDataStateTracker(  179): supl: supl got ACTION_DATA_CONNECTION_TRACKER_MESSENGER
+D/MobileDataStateTracker(  179): supl: MdstHandler connected
+D/MobileDataStateTracker(  179): mms: mms got ACTION_DATA_CONNECTION_TRACKER_MESSENGER
+D/MobileDataStateTracker(  179): mms: MdstHandler connected
+D/MobileDataStateTracker(  179): default: default got ACTION_DATA_CONNECTION_TRACKER_MESSENGER
+D/MobileDataStateTracker(  179): default: MdstHandler connected
+D/WifiStateMachine(  179): setDetailed state, old =IDLE and new state=DISCONNECTED
+D/WifiStateMachine(  179): setDetailed state, old =DISCONNECTED and new state=SCANNING
+D/WifiStateMachine(  179): set country code GB
+D/WifiStateMachine(  179): set frequency band 0
+D/AlarmManager(  179): Added alarm Alarm{40f0ed18 type 0 android} type:RTC_WAKEUP when: At 12/01/23 11:21 repeatInterval: 0h:1m:0.0s
+D/NvControl_JNI(  412): Register JNI Methods
+V/NvCPLService(  412): handleIntent(): START
+V/NvOTAHelper(  412): IsBootEvent(): bIsBootEvent = false
+V/NvOTAHelper(  412): IsAlarmWakeupEvent(): bIsAlarmWakeupEvent = false
+V/NvCPLService(  412): IsPropSetNeeded(): This is NOT a request to set property NV_STEREOCTRL
+V/NvCPLService(  412): IsPropSetNeeded(): This is NOT a request to set property NV_STEREOMETHOD
+V/NvCPLService(  412): IsPropSetNeeded(): This is NOT a request to set property NV_STEREOSEP
+V/NvCPLService(  412): IsPropSetNeeded(): Need to set property NV_STEREOSEPCHG to 0
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_setProperty(): START, set NV_STEREOSEPCHG to 0, stateId = 1, size = 1
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_setProperty(): could set the property.
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_setProperty(): FINISHED
+V/NvCPLService(  412): handleIntent(): END
+D/dalvikvm(  310): GC_FOR_ALLOC freed 140K, 4% free 6503K/6727K, paused 32ms
+I/FirmwareManagerService(  179): get the rom file /system/etc/firmware/EC/TF201-DOCK-0206.rom
+D/dalvikvm(  344): GC_CONCURRENT freed 199K, 5% free 6454K/6727K, paused 2ms+2ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 575K, 5% free 13091K/13767K, paused 48ms
+D/dalvikvm(  277): GC_CONCURRENT freed 100K, 3% free 9945K/10183K, paused 2ms+2ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 23.178MB for 10813456-byte allocation
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 4% free 23650K/24391K, paused 44ms
+E/SensorService(  179): unexpected event returned from HAL -- no active connections +++++++++++++++++++++
+I/StatusBarManagerService(  179): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@409b3078
+I/TabletStatusBar(  277): DISABLE_CLOCK: yes
+I/TabletStatusBar(  277): DISABLE_EXPAND: yes
+I/TabletStatusBar(  277): DISABLE_NAVIGATION: yes
+I/TabletStatusBar(  277): DISABLE_BACK: yes
+D/dalvikvm(  179): GC_CONCURRENT freed 14K, 3% free 23698K/24391K, paused 4ms+3ms
+D/NetworkLocationService(  344): onBind com.google.android.location.NetworkLocationProvidercom.google.android.location.NetworkLocationService@408194a8
+D/NetworkLocationService(  344): onBind com.google.android.location.GeocodeProvidercom.google.android.location.NetworkLocationService@408194a8
+D/SyncManager(  179): setSyncAutomatically: , provider subscribedfeeds -> true
+D/SyncManager(  179): setSyncAutomatically: already set to true, doing nothing
+D/androidInternalNlpService(  344): onCreate com.google.android.location.internal.server.NetworkLocationService@40806ee8
+D/androidNlpServiceThread(  344): ANDROID minProtocolVersion 1 maxProtocolVersion 1 releaseVersion -1
+D/NetworkLocationRealOs(  344): NLPv2 file already exists; ignoring any NLPv1 files
+D/NetworkLocationClient(  344): onServiceConnected to ComponentInfo{com.google.android.location/com.google.android.location.internal.server.NetworkLocationService}
+D/androidNetworkLocationListeners(  344): Still have listener com.google.android.location.internal.client.NetworkLocationClient$1@4081f890
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_CONCURRENT freed 39K, 3% free 6944K/7111K, paused 2ms+5ms
+I/ActivityManager(  179): Start proc android.process.media for broadcast com.android.providers.media/.UsbReceiver: pid=434 uid=10037 gids={1015, 1023, 1024, 2001, 3003}
+I/ActivityThread(  434): Pub media: com.android.providers.media.MediaProvider
+D/SystemUIService(  277): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService(  277): running: com.android.systemui.power.PowerUI@40bb5b40
+I/StatusBar.HeightReceiver(  277): Resizing status bar plugged=false height=48 old=48
+D/LocationProviderProxy(  179): LocationProviderProxy.onServiceConnected ComponentInfo{com.google.android.location/com.google.android.location.NetworkLocationService}
+D/GeocoderProxy(  179): onServiceConnected ComponentInfo{com.google.android.location/com.google.android.location.NetworkLocationService}
+D/MobileDataStateTracker(  179): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker(  179): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=gprsDetached
+D/WifiService(  179): New client listening to asynchronous messages
+D/dalvikvm(  344): GC_CONCURRENT freed 178K, 4% free 6794K/7047K, paused 2ms+2ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 296K, 4% free 23658K/24391K, paused 59ms
+I/dalvikvm-heap(  179): Grow heap (frag case) to 28.342MB for 5406736-byte allocation
+D/dalvikvm(  344): GC_CONCURRENT freed 152K, 4% free 7200K/7431K, paused 2ms+4ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed <1K, 3% free 28937K/29703K, paused 50ms
+I/SearchManagerService(  179): Building list of searchable activities
+D/AlarmManager(  179): Added alarm Alarm{409d8610 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{409d8610 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{409123f0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{409123f0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40866330 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/NetworkLocator(  344): null cell state delivered
+D/AlarmManager(  179): Removed alarm Alarm{40866330 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{408ef0c8 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{408ef0c8 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40a63248 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/NetworkLocator(  344): null cell state delivered
+D/AlarmManager(  179): Removed alarm Alarm{40a63248 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40abe5c0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/NetworkLocator(  344): null cell state delivered
+D/AlarmManager(  179): Removed alarm Alarm{40abe5c0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40ef0188 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/androidNetworkLocationListeners(  344): Still have listener com.google.android.location.internal.client.NetworkLocationClient$1@4081f890
+D/androidNetworkLocationListeners(  344): Still have listener com.google.android.location.internal.client.NetworkLocationClient$1@4081f890
+D/AlarmManager(  179): Removed alarm Alarm{40ef0188 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40850ee8 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/NetworkLocator(  344): null cell state delivered
+D/NetworkLocator(  344): null cell state delivered
+D/AlarmManager(  179): Removed alarm Alarm{40850ee8 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40b19c08 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{40b19c08 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40f10398 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{40f10398 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40ac3f88 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+E/wpa_supplicant(  271): Ongoing Scan action...
+E/wpa_supplicant(  271): Ongoing Scan action...
+E/wpa_supplicant(  271): Ongoing Scan action...
+D/dalvikvm(  179): GC_CONCURRENT freed 57K, 3% free 28982K/29703K, paused 2ms+15ms
+D/dalvikvm(  310): GC_CONCURRENT freed 182K, 4% free 7301K/7559K, paused 2ms+3ms
+D/dalvikvm(  362): GC_CONCURRENT freed 155K, 4% free 6584K/6855K, paused 3ms+10ms
+D/TabletStatusBar(  277): lights on
+D/PowerUI (  277): closing low battery warning: level=100
+D/WifiLocator(  344): Too many cache  misses. Need server request. hasLocation=0 noLocation=0 cacheMiss=2
+I/System.out(  344): [INFO:1847]: LogSource: Running flush
+D/AlarmManager(  179): Removed alarm Alarm{40ac3f88 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40abcc90 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+I/System.out(  344): [INFO:1862]: LogSource: Sending payload [bytes=291]
+I/System.out(  344): [SEVERE:1887]: LogSource: AsyncHttpRequestImpl.run(): exception thrown : Unable to resolve host "www.google.com": No address associated with hostname: java.net.UnknownHostException
+D/WifiLocator(  344): Too many cache  misses. Need server request. hasLocation=0 noLocation=0 cacheMiss=2
+E/GlsClient-query(  344): requestFailed
+E/GlsClient-query(  344): java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+E/GlsClient-query(  344): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:496)
+E/GlsClient-query(  344): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:277)
+E/GlsClient-query(  344): 	at java.net.InetAddress.getAllByName(InetAddress.java:249)
+E/GlsClient-query(  344): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:136)
+E/GlsClient-query(  344): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+E/GlsClient-query(  344): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+E/GlsClient-query(  344): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+E/GlsClient-query(  344): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+E/GlsClient-query(  344): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+E/GlsClient-query(  344): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponseCode(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.async.AsyncHttpRequestFactory$AsyncHttpRequestImpl.run(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.async.AsyncHttpRequestFactory.executeNextRequest(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.async.AsyncHttpRequestFactory.run(Unknown Source)
+E/GlsClient-query(  344): 	at com.google.common.lang.BaseThreadFactory$ThreadImpl.run(Unknown Source)
+D/libEGL  (  310): loaded /system/lib/egl/libGLES_android.so
+D/AlarmManager(  179): Removed alarm Alarm{40abcc90 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40f0fab0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 23h:59m:59.0s
+D/libEGL  (  310): loaded /system/lib/egl/libEGL_tegra.so
+D/libEGL  (  310): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/libEGL  (  310): loaded /system/lib/egl/libGLESv2_tegra.so
+D/OpenGLRenderer(  310): Creating OpenGL renderer caches
+D/OpenGLRenderer(  310): Enabling debug mode 0
+D/OpenGLRenderer(  310): Layers will be composited as regions
+I/MediaProvider(  434): Update ID=1, mount=/system, isMounted=1, VID = -1
+I/MediaProvider(  434): Update ID=2, mount=/data, isMounted=1, VID = -1
+D/dalvikvm(  310): GC_FOR_ALLOC freed 241K, 5% free 7477K/7815K, paused 19ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 12K, 6% free 7601K/8007K, paused 23ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 4K, 5% free 7808K/8199K, paused 17ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 10K, 4% free 8059K/8391K, paused 18ms
+I/dalvikvm-heap(  310): Grow heap (frag case) to 8.432MB for 513744-byte allocation
+D/dalvikvm(  310): GC_FOR_ALLOC freed <1K, 4% free 8560K/8903K, paused 17ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 13K, 4% free 9066K/9351K, paused 18ms
+I/SurfaceFlinger(  106): Boot is finished (64110 ms)
+V/Sensors (  179): virtual int MPLSensor::enable(int32_t, int)
+V/Sensors (  179): handle : 4 en: 1
+V/Sensors (  179): sensor state change what=4
+V/Sensors (  179): void set_power_states(int, bool)
+V/Sensors (  179):  enabled_sensors: 16 dmp_started: 0
+V/Sensors (  179): inv_set_mpu_sensors: 70
+I/MPL-fifo(  179): Actual ODR: 50000 mHz
+V/Sensors (  179): Starting DMP
+D/WindowManager(  179): readLidState, sw:1
+D/PowerManagerService(  179): bootCompleted
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Screen Dim' flags [screen_dim]
+D/PowerManagerService(  179): @PowerManagement: Acquire UWL 'StayOnWhilePluggedIn Partial' flags [partial]
+V/DevicePolicyManagerService(  179): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/MPL-mldl_cfg_mpu:(  179): inv_mpu_resume: Resuming to 0070
+V/Sensors (  179): virtual int MPLSensor::setDelay(int32_t, int64_t)
+E/Sensors (  179):  setDelay handle: 4 rate 200
+V/Sensors (  179): int MPLSensor::update_delay()
+V/Sensors (  179): set fifo rate: 39 200000000
+D/Tethering(  179): sendTetherStateChangedBroadcast 1, 0, 0
+D/Tethering(  179): interfaceAdded :usb0
+I/MPL-fifo(  179): Actual ODR: 25000 mHz
+V/Sensors (  179): virtual int MPLSensor::setDelay(int32_t, int64_t)
+E/Sensors (  179):  setDelay handle: 4 rate 60
+V/Sensors (  179): int MPLSensor::update_delay()
+V/Sensors (  179): set fifo rate: 11 60000000
+I/MPL-fifo(  179): Actual ODR: 25000 mHz
+W/MountService(  179): Duplicate state transition (mounted -> mounted) for /mnt/sdcard
+D/MountService(  179): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/sdcard (has extras) }
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+D/KeyguardViewMediator(  179): Receive wakeup source, keyguard show:true
+I/FirmwareManagerService(  179): get the rom file /system/etc/firmware/EC/TF201-PAD-0214.rom
+D/PowerManagerService(  179): @PowerManagement: sending ordered bcast for ACTION_SCREEN_ON
+V/WiredAccessoryObserver(  179): init()
+W/WiredAccessoryObserver(  179): This kernel does not have wired headset support
+D/AlarmManager(  179): Added alarm Alarm{40ed7bb0 type 2 android} type:ELAPSED_REALTIME_WAKEUP when: After 24h:13m:51.0s repeatInterval: 24h:0m:0.0s
+I/FirmwareManagerService(  179): get the rom file /system/etc/firmware/camera/TF201-RS_M6Mo-0x9891.bin
+D/dalvikvm(  310): GC_CONCURRENT freed 676K, 8% free 9324K/10119K, paused 3ms+3ms
+D/dalvikvm(  310): GC_CONCURRENT freed 554K, 7% free 9793K/10439K, paused 1ms+2ms
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+D/dalvikvm(  310): GC_CONCURRENT freed 542K, 6% free 10382K/11015K, paused 2ms+2ms
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/AwesomePlayer(  109): reset
+I/AwesomePlayer(  109): cancel player events
+I/MediaProvider(  434): Update ID=1, mount=/mnt/sdcard, isMounted=1, VID = -1
+I/ActivityThread(  434): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/dalvikvm(  310): GC_CONCURRENT freed 778K, 8% free 10994K/11847K, paused 2ms+7ms
+I/ActivityThread(  434): Pub drm: com.android.providers.drm.DrmProvider
+I/ActivityManager(  179): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.PhoneStateReceiver: pid=496 uid=10047 gids={3003}
+D/MtpService(  434): addStorageLocked 65537 /mnt/sdcard
+D/MtpService(  434): starting MTP server
+D/MtpService(  434): addStorageLocked 65537 /mnt/sdcard
+I/ActivityThread(  496): Pub com.google.android.partnersetup.rlzprovider: com.google.android.partnersetup.RlzProvider
+I/ActivityThread(  496): Pub com.google.android.partnersetup.rlzappprovider: com.google.android.partnersetup.RlzAppProvider
+D/dalvikvm(  310): GC_FOR_ALLOC freed 616K, 7% free 11820K/12679K, paused 30ms
+D/dalvikvm(  310): GC_EXPLICIT freed 884K, 9% free 12229K/13383K, paused 1ms+3ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 255K, 10% free 12175K/13383K, paused 21ms
+I/dalvikvm-heap(  310): Grow heap (frag case) to 13.840MB for 1958648-byte allocation
+D/dalvikvm(  310): GC_CONCURRENT freed 0K, 8% free 14088K/15303K, paused 2ms+2ms
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_FOR_ALLOC freed 2272K, 20% free 13043K/16199K, paused 24ms
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_CONCURRENT freed 1399K, 16% free 13647K/16199K, paused 3ms+2ms
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_FOR_ALLOC freed 350K, 11% free 14429K/16199K, paused 22ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 405K, 12% free 14578K/16519K, paused 22ms
+I/dalvikvm-heap(  310): Grow heap (frag case) to 15.057MB for 774416-byte allocation
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_FOR_ALLOC freed <1K, 12% free 15334K/17287K, paused 22ms
+D/dalvikvm(  310): GC_FOR_ALLOC freed 1090K, 13% free 15079K/17287K, paused 23ms
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/dalvikvm(  310): GC_FOR_ALLOC freed 1011K, 13% free 15113K/17287K, paused 22ms
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+V/SipBroadcastReceiver(  298): SIP VOIP not supported: android.net.sip.SIP_SERVICE_UP
+V/OtaStartupReceiver(  298): onReceive: intent action=android.intent.action.BOOT_COMPLETED  mOtaspMode=-1
+D/OtaStartupReceiver(  298): OTASP not supported, nothing to do.
+I/ActivityManager(  179): Start proc com.asus.weather for broadcast com.asus.weather/.WeatherReceiver: pid=510 uid=10004 gids={3003}
+I/RecoverySystem(  179): No recovery log file
+D/dalvikvm(  310): GC_FOR_ALLOC freed 552K, 10% free 15639K/17287K, paused 28ms
+I/ActivityThread(  510): Pub com.asus.weather.provider: com.asus.weather.WeatherContentProvider
+D/dalvikvm(  310): GC_FOR_ALLOC freed 275K, 10% free 15902K/17607K, paused 23ms
+I/BootReceiver(  179): Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+I/[WeatherReceiver](  510): Register alarm manager using pref value:Success
+I/[WeatherReceiver](  510): bootcomplete:Success
+I/[WeatherReceiver](  510): bootcomplete_out:Success
+I/ActivityManager(  179): Starting: Intent { flg=0x10000000 cmp=com.asus.UpdateLauncher/.UpdateLauncher (has extras) } from pid 376
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+V/NvCPLBootReceiver(  412): NvCPLBootReceiver, onReceive() called
+V/NvCPLService(  412): handleIntent(): START
+V/NvOTAHelper(  412): IsBootEvent(): bIsBootEvent = true
+V/NvOTAHelper(  412): doBootAction(): START
+V/NvJNIHelper(  412): getPropertyHelper(): START for propName = NV_OTAFREQ
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): START, get property NV_OTAFREQ
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): could NOT get the property, err = 0x30006
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): FINISHED
+V/NvJNIHelper(  412): getPropertyHelper(): FINISHED for propName NV_OTAFREQ, propVal = 
+V/NvOTAHelper(  412): doBootAction(): Alarm setup, firstTime = 71273, otaUpdateFreq = 172800000
+V/NvOTAHelper(  412): doBootAction(): END
+V/NvPowerMgr(  412): updatePowerStateOnBoot(): START
+V/NvJNIHelper(  412): getPropertyHelper(): START for propName = NV_FPSLIMIT
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): START, get property NV_FPSLIMIT
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): could get the property NV_FPSLIMIT = 35
+D/NvControl_JNI(  412): com_nvidia_NvCPLSvc_getProperty(): FINISHED
+V/NvJNIHelper(  412): getPropertyHelper(): FINISHED for propName NV_FPSLIMIT, propVal = 35
+V/NvPowerMgr(  412): updatePowerStateOnBoot(): Power state has previously been set
+V/NvPowerMgr(  412): updatePowerStateOnBoot(): fpsVal = 35
+V/NvPowerMgr(  412): updatePowerStateOnBoot(): We are in balanced mode
+V/NvPowerMgr(  412): setPowerState(): START
+V/NvPowerMgr(  412): setPowerState(): scaling, capLevel, capState, userCap, aggressiveness = 1, 1200, 1, 1200000, 29
+V/NvPowerMgr(  412): setPowerState(): END
+V/NvPowerMgr(  412): updatePowerStateOnBoot(): END
+D/AlarmManager(  179): Added alarm Alarm{41f37bf0 type 2 com.nvidia.NvCPLSvc} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:29.0s repeatInterval: 48h:0m:0.0s
+I/ActivityManager(  179): Start proc com.asus.keyboard for broadcast com.asus.keyboard/.TriggerKeyboardServiceReceiver: pid=519 uid=1000 gids={3003, 1015, 3002, 3001}
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/BootReceiver(  179): Copying /data/tombstones/tombstone_00 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager(  179): Displayed com.android.launcher/com.android.launcher2.Launcher: +7s286ms
+D/dalvikvm(  179): GC_FOR_ALLOC freed 11801K, 39% free 19058K/31111K, paused 45ms
+E/TelephonyManager(  344): Hidden constructor called more than once per process!
+E/TelephonyManager(  344): Original: com.google.android.location, new: com.google.android.gsf
+D/dalvikvm(  344): GC_CONCURRENT freed 750K, 12% free 6869K/7751K, paused 2ms+1ms
+D/KeyboardService(  519): key event is null.
+D/AlarmManager(  179): Added alarm Alarm{40b653f8 type 0 com.google.android.gsf} type:RTC_WAKEUP when: At 12/01/23 11:41 repeatInterval: 0h:30m:0.0s
+I/SystemUpdateService(  344): UpdateTask at time 1327285262859
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+I/MediaProvider(  434): Update ID=1, mount=/system, isMounted=1, VID = -1
+D/dalvikvm(  434): GC_CONCURRENT freed 229K, 6% free 6488K/6855K, paused 2ms+1ms
+I/SystemUpdateService(  344): cancelUpdate (empty URL)
+I/SystemUpdateService(  344): removeAllDownloads (cancelUpdate)
+I/ActivityManager(  179): Starting: Intent { flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog } from pid 344
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/ActivityManager(  179): Starting: Intent { flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateDownloadDialog } from pid 344
+E/TelephonyManager(  344): Hidden constructor called more than once per process!
+E/TelephonyManager(  344): Original: com.google.android.location, new: com.google.android.gsf
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/MediaScanner(  434):  prescan time: 28ms
+D/MediaScanner(  434):     scan time: 290ms
+D/MediaScanner(  434): postscan time: 19ms
+D/MediaScanner(  434):    total time: 337ms
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/androidNlpServiceThread(  344): updateState: shouldBeEnabled true shouldBeRunning true
+D/AlarmManager(  179): Removed alarm Alarm{40f0fab0 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40eccd88 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 23h:59m:52.0s
+I/ActivityManager(  179): Start proc com.google.android.gm for broadcast com.google.android.gm/.MailIntentReceiver: pid=543 uid=10049 gids={3003, 1015}
+I/RlzPingService(  496): Setting next ping for 1327890064660
+D/AlarmManager(  179): Added alarm Alarm{40b547e0 type 0 com.google.android.partnersetup} type:RTC_WAKEUP when: At 12/01/30 11:21
+I/ActivityThread(  543): Pub gmail-ls: com.google.android.gm.provider.MailProvider
+I/ActivityThread(  543): Pub com.google.android.gmail.SuggestionProvider: com.google.android.gm.SuggestionsProvider
+I/ActivityManager(  179): Start proc com.android.exchange for broadcast com.android.exchange/.service.ExchangeBroadcastReceiver: pid=557 uid=10055 gids={3003, 1015}
+I/ActivityThread(  557): Pub com.android.exchange.directory.provider: com.android.exchange.provider.ExchangeDirectoryProvider
+I/ActivityManager(  179): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=568 uid=10056 gids={3003, 1015}
+D/ExchangeService(  557): !!! EAS ExchangeService, onStartCommand, startingUp = false, running = false
+D/ExchangeService(  557): !!! EAS ExchangeService, onCreate
+D/ExchangeService(  557): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+I/ActivityThread(  568): Pub com.android.email.provider;com.android.email.notifier: com.android.email.provider.EmailProvider
+I/ActivityThread(  568): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+I/ActivityThread(  568): Pub com.android.email.EmailRecentQueryProvider: com.android.email.provider.EmailRecentQueryProvider
+I/ActivityManager(  179): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=587 uid=10058 gids={}
+D/Eas Debug(  557): Logging: 
+D/ExchangeService(  557): Received deviceId from Email app: android1340012737004
+D/ExchangeService(  557): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/Eas Debug(  557): Logging: 
+I/ActivityThread(  587): Pub com.android.deskclock: com.android.deskclock.AlarmProvider
+D/dalvikvm(  568): GC_CONCURRENT freed 273K, 6% free 6506K/6855K, paused 2ms+1ms
+V/AlarmClock(  587): AlarmInitReceiver finished
+I/ActivityManager(  179): Start proc com.asus.dm for broadcast com.asus.dm/.BootCompletedReceiver: pid=606 uid=1000 gids={3003, 1015, 3002, 3001}
+D/ExchangeService(  557): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/dalvikvm(  107): GC_EXPLICIT freed 11K, 5% free 6274K/6595K, paused 1ms+2ms
+D/ExchangeService(  557): Reconciling accounts...
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+1ms
+D/DMC->DMConfig(  606): DMConfig.init()
+D/DMC->DMConfig(  606): mFumoHandlerName=DefaultFumoHandler
+D/DMC->DMConfig(  606): allowShowMoreInfoOnError=false
+D/DMC->DMConfig(  606): allowFotaPolling=true
+D/DMC->BootCompletedReceiver(  606): ===== BCReceiver: Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 cmp=com.asus.dm/.BootCompletedReceiver }
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+1ms
+D/DMC->UniqueId(  606): use cached uniqueID
+D/DMC->BootCompletedReceiver(  606): check fota update status.
+D/DMC->BootCompletedReceiver(  606): check unfinished dm session.
+D/DMC->BootCompletedReceiver(  606): NextPollingInterval: 864000000
+D/DMC->BootCompletedReceiver(  606): NextPollingInterval: 864000000
+D/DMC->BootCompletedReceiver(  606): ===== scheduleNextPolling, time=Tue Jan 31 17:10:53 JST 2012
+D/AlarmManager(  179): Added alarm Alarm{40ef7290 type 0 com.asus.dm} type:RTC_WAKEUP when: At 12/01/31 17:10
+D/DMC->BootCompletedReceiver(  606): **NOT** Start DM Service
+D/DMC->BootCompletedReceiver(  606): exit onReceive
+I/ActivityManager(  179): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=617 uid=10062 gids={3003}
+I/ActivityThread(  617): Pub com.android.calendar: com.android.providers.calendar.CalendarProvider2
+D/AlarmManager(  179): Added alarm Alarm{40efe548 type 2 com.android.providers.calendar} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+I/ActivityManager(  179): Start proc com.asus.cm for broadcast com.asus.cm/.BootCompletedReceiver: pid=625 uid=1000 gids={3003, 1015, 3002, 3001}
+D/Calendar(  617): missed alarms found: 0
+D/CMC->CMConfig(  625): DMConfig.init()
+D/CMC->CMConfig(  625): mFumoHandlerName=DefaultFumoHandler
+D/CMC->CMConfig(  625): allowShowMoreInfoOnError=false
+D/CMC->CMConfig(  625): allowFotaPolling=true
+D/CMC->BootCompletedReceiver(  625): ===== BCReceiver: Intent { act=android.intent.action.BOOT_COMPLETED flg=0x10 cmp=com.asus.cm/.BootCompletedReceiver }
+D/CMC->UniqueId(  625): use cached uniqueID
+D/CMC->BootCompletedReceiver(  625): **NOT** Start CM Service
+D/CMC->BootCompletedReceiver(  625): exit onReceive
+I/ActivityManager(  179): Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=633 uid=10067 gids={3003, 3002, 3001, 1015}
+I/ActivityThread(  633): Pub com.android.bluetooth.opp: com.android.bluetooth.opp.BluetoothOppProvider
+D/dalvikvm(  543): GC_CONCURRENT freed 172K, 5% free 6566K/6855K, paused 2ms+2ms
+I/ActivityManager(  179): Start proc com.asus.lock for broadcast com.asus.lock/.receiver.AppLockReceiver: pid=639 uid=1000 gids={3003, 1015, 3002, 3001}
+I/ActivityManager(  179): Start proc com.uphyca.android.app.bandoclock for broadcast com.uphyca.android.app.bandoclock/.WidgetProvider: pid=649 uid=10092 gids={1015}
+I/Gmail   (  543): calculateUnknownSyncRationalesAndPurgeInBackground: queueing
+I/ActivityManager(  179): Start proc com.evernote for broadcast com.evernote/.BootReceiver: pid=656 uid=10085 gids={3003, 1015, 1007}
+I/ActivityManager(  179): No longer want com.android.settings (pid 330): hidden #16
+I/Gmail   (  543): calculateUnknownSyncRationalesAndPurgeInBackground: running
+V/Sensors (  179): void cb_onMotion(uint16_t)
+D/dalvikvm(  656): GC_CONCURRENT freed 141K, 5% free 6579K/6855K, paused 2ms+2ms
+D/dalvikvm(  656): GC_CONCURRENT freed 214K, 5% free 6873K/7175K, paused 1ms+1ms
+D/dalvikvm(  656): GC_CONCURRENT freed 285K, 7% free 7021K/7495K, paused 2ms+2ms
+D/dalvikvm(  656): GC_FOR_ALLOC freed 255K, 7% free 7113K/7623K, paused 16ms
+D/dalvikvm(  656): GC_CONCURRENT freed 246K, 5% free 7428K/7751K, paused 1ms+2ms
+D/dalvikvm(  656): GC_CONCURRENT freed 84K, 3% free 7908K/8071K, paused 2ms+2ms
+D/dalvikvm(  656): GC_CONCURRENT freed 266K, 4% free 8241K/8583K, paused 1ms+2ms
+D/com.evernote.m(  656): ReleaseProperties()::referralCode=android::type=public::autoUpdate={type=public, revision=216817, autoUpdate=, referralCode=android}
+I/com.evernote.m(  656): From file referralCode=android
+D/com.evernote.m(  656): ReleaseProperties()::referralCode=android::type=public::autoUpdate=
+I/ActivityThread(  656): Pub com.evernote.evernoteprovider: com.evernote.provider.EvernoteProvider
+D/com.evernote.provider.EvernoteProvider(  656): Provider+++++onCreate()
+D/com.evernote.provider.x(  656): Register SD Card Receiver ++++++++++++++++++++
+D/com.evernote.provider.x(  656): checkForRecentUnmount() end
+D/com.evernote.provider.b(  656): locale is set=ja_JP
+D/com.evernote.provider.b(  656): isDBONSDcard()=true
+I/com.evernote.provider.x(  656): getSDCardStatus()::mounted::noStorageText=null
+D/com.evernote.provider.b(  656): isDBFileChanged()::lastFilePath in pref=/mnt/sdcard/Evernote/.external-1327199332238-Evernote.db
+E/com.evernote.provider.b(  656): isDBFileChanged()::+++++++++lastFilePath exists/mnt/sdcard/Evernote/.external-1327199332238-Evernote.db
+D/com.evernote.provider.b(  656): getInstance()::DBFile NOT Changed
+D/com.evernote.provider.b(  656): isDBONSDcard()=true
+D/com.evernote.provider.b(  656): moveToSDcard()::start::Evernote.DB_ON_SDCARD=true
+D/com.evernote.provider.b(  656): isDBONSDcard()=true
+E/com.evernote.provider.b(  656): isLastDBFileOnSDCard()::+++++++++++lastFilePath exists/mnt/sdcard/Evernote/.external-1327199332238-Evernote.db
+D/com.evernote.provider.b(  656): isDBONSDcard()=true
+D/com.evernote.provider.b(  656): getDBfilePath()::++++++++++++++++lastFilePath from preferences/mnt/sdcard/Evernote/.external-1327199332238-Evernote.db
+E/com.evernote.provider.b(  656): getDBfilePath()::++++++++++++++++lastFilePath exists/mnt/sdcard/Evernote/.external-1327199332238-Evernote.db
+D/com.evernote.provider.EvernoteProvider(  656): cleanupOldThumbnailsIfNeeded()
+D/com.evernote.Evernote(  656): App::onCreate()
+I/com.evernote.util.ax(  656): Screen size is x-large density is medum
+I/com.evernote.util.ax(  656): Display size: width=1280 height=752
+I/com.evernote.util.ax(  656): Display size: xDpi=160.15764 yDpi=160.0 scaleFactor=1.0
+D/com.evernote.ui.helper.dr(  656): hasSystemFeature com.google.android.tv result=false
+D/com.evernote.util.ax(  656): isTablet() height=752 width=1280 longestSide=1280
+D/com.evernote.util.ax(  656): Calculated screen dimensions: height=4.7 width=7.992126
+D/com.evernote.Evernote(  656): Init sync alarm: 3600000ms
+D/com.evernote.provider.b(  656): isDBONSDcard()=true
+D/com.evernote.client.SyncService(  656): SyncService::onCreate()
+I/ActivityManager(  179): Start proc com.dataviz.docstogo for broadcast com.dataviz.docstogo/com.dataviz.dxtg.common.android.DTGPhoneBootReceiver: pid=669 uid=10084 gids={3003, 1015}
+I/com.evernote.provider.x(  656): getSDCardStatus()::mounted::noStorageText=null
+D/com.evernote.provider.b(  656): onOpen()+++++++++
+D/com.evernote.Evernote(  656): USN changed time: 1327199332408, Last launch time: 1327199332289
+D/com.evernote.util.r(  656): cleanupLogs()
+D/com.evernote.m(  656): ReleaseProperties()::referralCode=android::type=public::autoUpdate=
+D/com.evernote.client.SyncService(  656): checkAutoUpdate()::no auto update
+I/com.evernote.client.EvernoteService(  656): EvernoteSession()::Creating new sesssion
+D/com.evernote.provider.q(  656): cleanupShareDirectory
+I/CalendarProvider2(  617): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+W/ContentResolver(  617): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+I/ActivityManager(  179): No longer want com.asus.pcsynclauncher (pid 398): hidden #16
+D/com.evernote.client.b(  656): Version: 1.20 next check in:-22121421 minutes.
+I/com.evernote.Evernote(  656): Constructing new HTTP connection manager
+I/com.evernote.b.a.d(  656): Requesting:https://www.evernote.com/edam/user++++++++++++++++++++++++++
+I/ActivityThread(  669): Pub com.dataviz.dxtg.documentprovider: com.dataviz.dxtg.common.android.DocumentContentProvider
+I/ActivityThread(  669): Pub com.dataviz.docstogo.shregi: com.dataviz.dxtg.common.android.RegistrationInfoShare
+I/ActivityThread(  669): Pub com.dataviz.dxtg.common.protection.android: com.dataviz.dxtg.common.android.protection.DocsToGoProtectionContentProvider
+D/com.evernote.util.n(  656): Deleting /mnt/sdcard/Evernote/.logs : true
+I/com.evernote.b.a.d(  656): 11: Response received in: 92ms
+E/com.evernote.client.SyncService(  656): Sync failed
+E/com.evernote.client.SyncService(  656): b.a.a.c.b: java.net.UnknownHostException: Unable to resolve host "www.evernote.com": No address associated with hostname
+E/com.evernote.client.SyncService(  656): 	at com.evernote.b.a.d.b(TAndroidHttpClient.java:187)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.e.d.i.f(UserStore.java:97)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.e.d.i.a(UserStore.java:84)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.client.b.<init>(BaseSession.java:105)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.client.m.<init>(EvernoteSession.java:70)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.client.EvernoteService.a(EvernoteService.java:318)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.client.SyncService.onHandleIntent(SyncService.java:5592)
+E/com.evernote.client.SyncService(  656): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:59)
+E/com.evernote.client.SyncService(  656): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/com.evernote.client.SyncService(  656): 	at android.os.Looper.loop(Looper.java:132)
+E/com.evernote.client.SyncService(  656): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+E/com.evernote.client.SyncService(  656): Caused by: java.net.UnknownHostException: Unable to resolve host "www.evernote.com": No address associated with hostname
+E/com.evernote.client.SyncService(  656): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:496)
+E/com.evernote.client.SyncService(  656): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:277)
+E/com.evernote.client.SyncService(  656): 	at java.net.InetAddress.getAllByName(InetAddress.java:249)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:136)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+E/com.evernote.client.SyncService(  656): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+E/com.evernote.client.SyncService(  656): 	at com.evernote.b.a.d.b(TAndroidHttpClient.java:172)
+E/com.evernote.client.SyncService(  656): 	... 10 more
+D/com.evernote.client.SyncService(  656): Sync failed due to invalid mSession or mSyncConnection
+D/com.evernote.client.SyncService(  656): SyncService::onDestroy()
+I/ActivityManager(  179): No longer want com.asus.UpdateLauncher (pid 376): hidden #16
+I/Documents To Go(  669): Phone Boot Received
+I/Process (  669): Sending signal. PID: 669 SIG: 9
+I/ActivityManager(  179): Process com.dataviz.docstogo (pid 669) has died.
+D/dalvikvm(  656): GC_CONCURRENT freed 619K, 8% free 8330K/9031K, paused 5ms+3ms
+I/ActivityManager(  179): Start proc com.dropbox.android for broadcast com.dropbox.android/.service.BootReceiver: pid=683 uid=10082 gids={3003, 1015}
+I/ActivityThread(  683): Pub com.dropbox.android.ZipperedUploadProvider: com.dropbox.android.provider.ZipperedUploadProvider
+I/ActivityThread(  683): Pub com.dropbox.android.UploadLog: com.dropbox.android.provider.UploadLogProvider
+I/ActivityThread(  683): Pub com.dropbox.android.ZipperedMediaProvider: com.dropbox.android.provider.ZipperedMediaProvider
+I/ActivityThread(  683): Pub com.dropbox.android.provider.SDK: com.dropbox.android.provider.SDKProvider
+I/ActivityThread(  683): Pub com.dropbox.android.Dropbox: com.dropbox.android.provider.DropboxProvider
+I/ActivityThread(  683): Pub com.dropbox.android.LocalFile: com.dropbox.android.provider.FileSystemProvider
+I/com.dropbox.android.util.FileWatcher(  683): Watching file: /mnt/sdcard/Android/data/com.dropbox.android/files/scratch/pdf/正規表現クックブック.pdf
+D/com.dropbox.android.util.FileWatcher(  683): **********   Watching new directory: /mnt/sdcard/Android/data/com.dropbox.android/files/scratch/pdf/
+I/com.dropbox.android.util.FileWatcher(  683): File not modified: /mnt/sdcard/Android/data/com.dropbox.android/files/scratch/pdf/正規表現クックブック.pdf
+I/ActivityManager(  179): Start proc jp.r246.twicca for broadcast jp.r246.twicca/.TwiccaReceiver: pid=694 uid=10078 gids={3003, 1015}
+I/ActivityManager(  179): No longer want com.asus.weather (pid 510): hidden #16
+D/dalvikvm(  683): GC_CONCURRENT freed 178K, 5% free 6552K/6855K, paused 1ms+2ms
+D/dalvikvm(  694): GC_CONCURRENT freed 162K, 4% free 6617K/6855K, paused 2ms+2ms
+D/dalvikvm(  179): GC_EXPLICIT freed 1471K, 40% free 18723K/31111K, paused 2ms+4ms
+D/AlarmManager(  179): Added alarm Alarm{41fbbaf8 type 0 jp.r246.twicca} type:RTC_WAKEUP when: At 70/01/01 10:00 repeatInterval: 1h:0m:0.0s
+D/AlarmManager(  179): Added alarm Alarm{41fbbaf8 type 0 jp.r246.twicca} type:RTC_WAKEUP when: At 12/01/23 12:00 repeatInterval: 1h:0m:0.0s
+D/AlarmManager(  179): Triggered Alarm 41fbbaf8 RTC_WAKEUP IntentSender{41e91798: PendingIntentRecord{41f39308 jp.r246.twicca broadcastIntent}}
+I/ActivityManager(  179): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=702 uid=10039 gids={3003, 1015}
+I/ActivityManager(  179): No longer want com.google.android.partnersetup (pid 496): hidden #16
+D/dalvikvm(  702): GC_CONCURRENT freed 160K, 4% free 6619K/6855K, paused 2ms+2ms
+D/AlarmManager(  179): Added alarm Alarm{40aa7a80 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:28m:42.0s repeatInterval: 0h:15m:0.0s
+I/ActivityManager(  179): Start proc com.google.android.apps.maps:NetworkLocationService for service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService: pid=712 uid=10039 gids={3003, 1015}
+I/ActivityManager(  179): No longer want android.process.acore (pid 362): hidden #16
+D/dalvikvm(  107): GC_EXPLICIT freed 12K, 5% free 6274K/6595K, paused 7ms+2ms
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+1ms
+D/dalvikvm(  712): GC_CONCURRENT freed 160K, 4% free 6618K/6855K, paused 1ms+2ms
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+1ms
+I/ActivityManager(  179): Start proc com.asus.UpdateLauncher for broadcast com.asus.UpdateLauncher/.UpdateLauncherIntentReceiver: pid=719 uid=10009 gids={}
+I/ActivityManager(  179): Starting: Intent { flg=0x10000000 cmp=com.asus.UpdateLauncher/.UpdateLauncher (has extras) } from pid 719
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/ActivityManager(  179): Start proc com.ecareme.pixwe for broadcast com.ecareme.pixwe/.cache.BootReceiver: pid=728 uid=10022 gids={3003, 1015}
+I/ActivityManager(  179): No longer want com.google.android.gsf.login (pid 292): hidden #16
+D/WindowManager(  179): readLidState, sw:1
+D/WindowManager(  179): adjustConfigurationLw, config:{1.0 0mcc0mnc (no locale) sw800dp w1280dp h752dp xlrg land ?uimode ?night finger qwerty/v/v -nav/v} mLidOpen:1 mHasDockFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:1
+I/ActivityThread(  728): Pub com.ecareme.contentprovider.pixwe: com.ecareme.pixwe.aws.PixWeContentProvider
+I/BootReceiver(  728): Got intent with action android.intent.action.MEDIA_MOUNTED
+I/ActivityManager(  179): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/.ConnectivityBroadcastReceiver: pid=743 uid=10036 gids={3003}
+I/ActivityManager(  179): No longer want com.google.android.gm (pid 543): hidden #16
+I/ActivityThread(  743): Pub com.google.android.apps.uploader: com.google.android.apps.uploader.UploadsContentProvider
+I/ActivityThread(  743): Pub com.google.photos.provider.Album: com.google.android.apps.uploader.clients.picasa.AlbumProvider
+D/MediaUploader(  743): UploaderApplication.onCreate
+D/dalvikvm(  712): GC_CONCURRENT freed 182K, 4% free 6980K/7239K, paused 2ms+2ms
+D/MediaUploader(  743): nonWifiLimit=20971520, default=20971520
+I/MediaUploader(  743): No need to wake up
+D/MediaScannerReceiver(  434): action: android.intent.action.MEDIA_MOUNTED path: /mnt/sdcard
+I/ActivityManager(  179): No longer want com.android.exchange (pid 557): hidden #16
+D/dalvikvm(  712): GC_CONCURRENT freed 168K, 4% free 7375K/7623K, paused 1ms+3ms
+I/ActivityManager(  179): Start proc com.dataviz.docstogo for broadcast com.dataviz.docstogo/com.dataviz.dxtg.common.sync.android.AndroidDesktopMountListener: pid=755 uid=10084 gids={3003, 1015}
+I/ActivityThread(  755): Pub com.dataviz.dxtg.documentprovider: com.dataviz.dxtg.common.android.DocumentContentProvider
+I/ActivityThread(  755): Pub com.dataviz.docstogo.shregi: com.dataviz.dxtg.common.android.RegistrationInfoShare
+I/ActivityThread(  755): Pub com.dataviz.dxtg.common.protection.android: com.dataviz.dxtg.common.android.protection.DocsToGoProtectionContentProvider
+I/DVZ Desktop Sync Media Receiver(  755): Media Mounted - validating desktop sync locations
+D/AlarmManager(  179): Added alarm Alarm{40eb6308 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 4h:10m:3.0s
+E/ActivityThread(  755): Failed to find provider info for com.dataviz.dxtg.common.android.volprotection
+I/DVZ Desktop Sync Media Receiver(  755): Sync Locations Verified!
+I/ActivityManager(  179): Start proc com.pogoplug.android for broadcast com.pogoplug.android/.backup.ExternalStorageIntentReceiver: pid=764 uid=10081 gids={3003, 1015}
+I/ActivityManager(  179): No longer want com.android.email (pid 568): hidden #16
+D/AlarmManager(  179): Added alarm Alarm{41f53238 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{41f53238 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40ec7628 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{40ec7628 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40f0cda8 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{40f0cda8 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40aea2f8 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{40aea2f8 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41f38258 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/AlarmManager(  179): Removed alarm Alarm{41f38258 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40b5b060 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/dalvikvm(  712): GC_CONCURRENT freed 716K, 11% free 7136K/7943K, paused 3ms+2ms
+D/dalvikvm(  755): GC_CONCURRENT freed 153K, 4% free 6588K/6855K, paused 3ms+2ms
+W/CursorWrapperInner(  755): Cursor finalized without prior close()
+D/AlarmManager(  179): Removed alarm Alarm{40b5b060 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40ac0a10 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+D/PowerManagerService(  179): @PowerManagement: 'keyguard' releaseWakeLock when screen locked
+E/wpa_supplicant(  271): Ongoing Scan action...
+E/Pogoplug(  764): In ExternalStorageIntentReceiver.onReceive.1
+I/Pogoplug(  764): In Backupservice.onCreate()
+I/ActivityManager(  179): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.PackagesMediaMonitor: pid=772 uid=10021 gids={3003, 1015, 1006}
+I/MediaProvider(  434): Update ID=1, mount=/mnt/sdcard, isMounted=1, VID = -1
+D/dalvikvm(  434): GC_CONCURRENT freed 122K, 4% free 6821K/7047K, paused 2ms+3ms
+I/ActivityThread(  772): Pub com.google.android.apps.plus.content.EsProvider: com.google.android.apps.plus.content.EsProvider
+I/ActivityThread(  772): Pub com.google.android.apps.plus.content.ApiProvider: com.google.android.apps.plus.content.EsApiProvider
+I/ActivityThread(  772): Pub com.google.android.apps.plus.content.EsGooglePhotoProvider: com.google.android.picasasync.PicasaContentProvider
+D/dalvikvm(  772): GC_CONCURRENT freed 163K, 4% free 6615K/6855K, paused 2ms+2ms
+D/dalvikvm(  772): GC_CONCURRENT freed 529K, 9% free 6632K/7239K, paused 2ms+2ms
+I/ActivityThread(  772): Pub com.google.plus.platform: com.google.android.apps.plus.content.AdsProvider
+V/PicasaContentProvider(  772): querySettings: defaults: {sync_on_wifi_only=1, auto_upload_account_type=null, sync_on_battery=1, sync_picasa_on_wifi_only=1, auto_upload_enabled=0, video_upload_wifi_only=1, sync_on_roaming=0, auto_upload_account_name=null}
+D/dalvikvm(  772): GC_CONCURRENT freed 222K, 5% free 6921K/7239K, paused 1ms+2ms
+D/AlarmManager(  179): Removed alarm Alarm{40eccd88 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40ed3d20 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 23h:59m:46.0s
+D/UploadsManager(  772): load newPhotoTracker: MediaTracker:********************,trackNew:photo-external,631:photo-phoneStorage,-1:video-external,0:video-phoneStorage,-1
+D/UploadsManager(  772): load all accounts: null
+D/UploadsManager(  772): load all account-album pairs: null
+V/PicasaContentProvider(  772): querySettings: defaults: {sync_on_wifi_only=1, auto_upload_account_type=null, sync_on_battery=1, sync_picasa_on_wifi_only=1, auto_upload_enabled=0, video_upload_wifi_only=1, sync_on_roaming=0, auto_upload_account_name=null}
+D/UploadsManager(  772):    settings not changed
+I/ActivityManager(  179): No longer want com.android.deskclock (pid 587): hidden #16
+D/PowerManagerService(  179): @PowerManagement: Release UWL 'sleep_broadcast' flags [partial] refcount=0
+I/ActivityManager(  179): Start proc com.asus.weather for broadcast com.asus.weather/.WeatherWidgetProvider: pid=781 uid=10004 gids={3003}
+I/ActivityThread(  781): Pub com.asus.weather.provider: com.asus.weather.WeatherContentProvider
+I/[WeatherWidgetProvider](  781): onUpdate1
+D/AlarmManager(  179): Removed alarm Alarm{40ac0a10 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41f3a020 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:4.0s
+I/System.out(  712): [INFO:1149]: c: Running flush
+D/dalvikvm(  712): GC_FOR_ALLOC freed 34K, 11% free 7140K/7943K, paused 26ms
+I/dalvikvm-heap(  712): Grow heap (frag case) to 7.078MB for 32784-byte allocation
+I/[WeatherWidgetProvider](  781): LastUpdateCursor is NOT null
+I/[WeatherWidgetProvider](  781): [4x4 show Interval:last update]
+D/dalvikvm(  712): GC_FOR_ALLOC freed 1K, 11% free 7171K/8007K, paused 22ms
+I/ActivityManager(  179): Start proc com.android.calendar for broadcast com.android.calendar/.widget.CalendarAppWidgetProvider: pid=789 uid=10063 gids={3003}
+I/ActivityManager(  179): No longer want com.asus.dm (pid 606): hidden #16
+I/System.out(  712): [INFO:1227]: c: Sending payload [bytes=333]
+I/System.out(  712): [SEVERE:1238]: c: AsyncHttpRequestImpl.run(): exception thrown : Unable to resolve host "www.google.com": No address associated with hostname: java.net.UnknownHostException
+D/AlarmManager(  179): Removed alarm Alarm{41f3a020 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{40b1b328 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 596523h:14m:6.0s
+I/ActivityThread(  789): Pub com.android.calendar.CalendarRecentSuggestionsProvider: com.android.calendar.CalendarRecentSuggestionsProvider
+D/dalvikvm(  310): GC_FOR_ALLOC freed 473K, 10% free 16214K/17927K, paused 26ms
+I/ActivityManager(  179): Start proc com.asus.Battery for broadcast com.asus.Battery/.BatteryWidgetProvider: pid=799 uid=10068 gids={}
+I/ActivityManager(  179): No longer want com.asus.cm (pid 625): hidden #16
+I/ActivityManager(  179): Start proc com.uphyca.android.app.bandoclock:remote for service com.uphyca.android.app.bandoclock/.WidgetProvider$TimeService: pid=806 uid=10092 gids={1015}
+E/RemoteViewsAdapter(  310): Error in updateMetaData: null
+D/CalendarWidget(  789): Scheduled next update at [1327330800000] 00:00:00 (+758 mins)
+I/ActivityManager(  179): Start proc com.thedeck.android.app for broadcast com.thedeck.android.app/com.tweetdeck.widget.WidgetStarter: pid=818 uid=10080 gids={3003, 1015}
+D/dalvikvm(  107): GC_EXPLICIT freed 11K, 5% free 6274K/6595K, paused 3ms+2ms
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+2ms
+D/dalvikvm(  107): GC_EXPLICIT freed <1K, 5% free 6274K/6595K, paused 1ms+1ms
+D/dalvikvm(  818): GC_CONCURRENT freed 296K, 6% free 6483K/6855K, paused 2ms+2ms
+D/CalendarWidget(  789): Scheduled next update at [1327330800000] 00:00:00 (+758 mins)
+D/dalvikvm(  818): GC_CONCURRENT freed 415K, 8% free 6555K/7111K, paused 1ms+2ms
+D/dalvikvm(  434): GC_CONCURRENT freed 249K, 5% free 7001K/7367K, paused 1ms+2ms
+D/dalvikvm(  818): GC_CONCURRENT freed 376K, 8% free 6671K/7175K, paused 2ms+3ms
+D/dalvikvm(  434): GC_CONCURRENT freed 365K, 7% free 7097K/7559K, paused 1ms+3ms
+D/dalvikvm(  818): GC_CONCURRENT freed 386K, 8% free 6777K/7303K, paused 3ms+2ms
+W/TweetDeck(  818): com.tweetdeck.net.FailWhale: java.net.UnknownHostException: Unable to resolve host "tracking.tweetdeck.com": No address associated with hostname
+W/TweetDeck(  818): 	at com.tweetdeck.net.RestClient.read(RestClient.java:278)
+W/TweetDeck(  818): 	at com.tweetdeck.net.RestClient.GET(RestClient.java:106)
+W/TweetDeck(  818): 	at com.tweetdeck.net.TrackingRestClient$1.run(TrackingRestClient.java:121)
+W/TweetDeck(  818): 	at java.lang.Thread.run(Thread.java:1020)
+W/TweetDeck(  818): Caused by: java.net.UnknownHostException: Unable to resolve host "tracking.tweetdeck.com": No address associated with hostname
+W/TweetDeck(  818): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:486)
+W/TweetDeck(  818): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:277)
+W/TweetDeck(  818): 	at java.net.InetAddress.getAllByName(InetAddress.java:249)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection.<init>(HttpConnection.java:69)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection.<init>(HttpConnection.java:48)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection$Address.connect(HttpConnection.java:304)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionPool.get(HttpConnectionPool.java:89)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.getHttpConnection(HttpURLConnectionImpl.java:292)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.makeConnection(HttpURLConnectionImpl.java:274)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.retrieveResponse(HttpURLConnectionImpl.java:1038)
+W/TweetDeck(  818): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:736)
+W/TweetDeck(  818): 	at com.tweetdeck.net.RestClient.read(RestClient.java:238)
+W/TweetDeck(  818): 	... 3 more
+D/AlarmManager(  179): Added alarm Alarm{41fbca60 type 0 com.thedeck.android.app} type:RTC_WAKEUP when: At 12/01/23 11:30 repeatInterval: 0h:15m:0.0s
+D/dalvikvm(  818): GC_FOR_ALLOC freed 221K, 7% free 6899K/7367K, paused 21ms
+D/dalvikvm(  694): GC_CONCURRENT freed 227K, 5% free 6839K/7175K, paused 2ms+3ms
+I/[WeatherReceiver](  781): P.UPDATE_REQUEST:Receive
+I/[WeatherSettingsAdapter](  781): AnyNetwork:false
+I/[WeatherReceiver](  781): Network is not available. Prepare to count 20 secs
+I/[WeatherReceiver](  781): Start count 20 secs
+I/ActivityManager(  179): Start proc com.google.android.music:main for broadcast com.google.android.music/.store.MediaStoreImportService$Receiver: pid=845 uid=10035 gids={3003, 1015}
+D/dalvikvm(  818): GC_FOR_ALLOC freed 144K, 8% free 6909K/7495K, paused 47ms
+D/dalvikvm(  434): GC_CONCURRENT freed 431K, 8% free 7066K/7623K, paused 5ms+3ms
+D/dalvikvm(  845): GC_CONCURRENT freed 148K, 4% free 6631K/6855K, paused 2ms+2ms
+I/ActivityThread(  845): Pub com.google.android.music.MusicContent: com.google.android.music.store.MusicContentProvider
+I/MusicStore(  845): Database version: 37
+I/AsyncCursor1:1(  845): Initialized for content://com.google.android.music.MusicContent/playlists, proj:_id#name, sel: 'null', args: null, order: null
+I/BootReceiver(  728): Got intent with action android.intent.action.MEDIA_SCANNER_FINISHED
+I/ActivityManager(  179): Start proc com.google.android.gm for broadcast com.google.android.gm/.MailIntentReceiver: pid=855 uid=10049 gids={3003, 1015}
+I/ActivityManager(  179): No longer want com.asus.lock (pid 639): hidden #16
+D/dalvikvm(  845): GC_CONCURRENT freed 196K, 5% free 6919K/7239K, paused 4ms+2ms
+D/AlarmManager(  179): Triggered Alarm 40efe548 ELAPSED_REALTIME_WAKEUP IntentSender{41f6cd90: PendingIntentRecord{40efe478 com.android.providers.calendar broadcastIntent}}
+I/ActivityThread(  855): Pub gmail-ls: com.google.android.gm.provider.MailProvider
+I/ActivityThread(  855): Pub com.google.android.gmail.SuggestionProvider: com.google.android.gm.SuggestionsProvider
+D/com.evernote.ui.helper.SyncNotification(  656): ::::::::SyncNotification::com.evernote.action.SYNC_ERROR::::::::::::::::
+D/com.evernote.ui.helper.dr(  656): parseSyncStatus()
+D/com.evernote.ui.helper.dr(  656): index=0 max=0
+D/com.evernote.ui.helper.dr(  656): ACTION_SYNC_ERROR=b.a.a.c.b
+I/ActivityManager(  179): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=865 uid=10039 gids={3003, 1015}
+D/dalvikvm(  865): GC_CONCURRENT freed 154K, 4% free 6625K/6855K, paused 1ms+2ms
+D/dalvikvm(  694): GC_CONCURRENT freed 615K, 10% free 6735K/7431K, paused 2ms+2ms
+I/ActivityManager(  179): No longer want com.android.bluetooth (pid 633): hidden #16
+D/dalvikvm(  865): GC_CONCURRENT freed 246K, 5% free 6893K/7239K, paused 2ms+1ms
+D/AlarmManager(  179): Removed alarm Alarm{40aa7a80 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41f7c108 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 0h:28m:37.0s repeatInterval: 0h:15m:0.0s
+D/dalvikvm(  702): GC_CONCURRENT freed 194K, 5% free 6851K/7175K, paused 2ms+2ms
+E/Process (  179): Error getting pid for '0'
+D/AlarmManager(  179): Added alarm Alarm{41f8a9f0 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 12/01/24 9:22
+I/ActivityManager(  179): No longer want com.dropbox.android (pid 683): hidden #16
+D/dalvikvm(  434): GC_CONCURRENT freed 450K, 8% free 7073K/7623K, paused 1ms+2ms
+D/dalvikvm(  434): GC_CONCURRENT freed 387K, 7% free 7144K/7623K, paused 1ms+3ms
+D/dalvikvm(  434): GC_CONCURRENT freed 450K, 8% free 7145K/7687K, paused 1ms+3ms
+D/dalvikvm(  434): GC_CONCURRENT freed 426K, 8% free 7128K/7687K, paused 2ms+2ms
+D/AlarmManager(  179): Removed alarm Alarm{40ed3d20 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41f93538 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 23h:59m:39.0s
+D/AlarmManager(  179): Removed alarm Alarm{40b1b328 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41f93f70 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 596523h:13m:59.0s
+I/ActivityManager(  179): No longer want com.google.android.apps.uploader (pid 743): hidden #16
+D/dalvikvm(  434): GC_CONCURRENT freed 567K, 10% free 6981K/7687K, paused 1ms+2ms
+D/dalvikvm(  434): GC_CONCURRENT freed 305K, 8% free 7108K/7687K, paused 1ms+2ms
+D/dalvikvm(  434): GC_CONCURRENT freed 383K, 7% free 7214K/7687K, paused 1ms+2ms
+D/dalvikvm(  434): GC_CONCURRENT freed 460K, 8% free 7200K/7751K, paused 2ms+2ms
+I/InputReader(  179): Device reconfigured: id=6, name='atmel-maxtouch', surface size is now 1280x800
+I/TabletStatusBar(  277): DISABLE_CLOCK: no
+I/TabletStatusBar(  277): DISABLE_NAVIGATION: no
+D/PowerManagerService(  179): @PowerManagement: 'keyguard' releaseWakeLock when screen locked
+I/TabletStatusBar(  277): DISABLE_BACK: no
+D/AlarmManager(  179): Removed alarm Alarm{41f93538 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41ee5668 type 2 com.google.android.location} type:ELAPSED_REALTIME_WAKEUP when: After 23h:59m:33.0s
+D/AlarmManager(  179): Removed alarm Alarm{41f93f70 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP
+D/AlarmManager(  179): Added alarm Alarm{41ee60a0 type 2 com.google.android.apps.maps} type:ELAPSED_REALTIME_WAKEUP when: After 596523h:13m:53.0s
+D/dalvikvm(  434): GC_CONCURRENT freed 476K, 8% free 7198K/7751K, paused 1ms+6ms
+D/dalvikvm(  434): GC_CONCURRENT freed 408K, 7% free 7250K/7751K, paused 2ms+3ms
+D/dalvikvm(  434): GC_CONCURRENT freed 453K, 8% free 7266K/7815K, paused 1ms+3ms

@@ -1,0 +1,16 @@
+Attribute Section: aeabi
+File Attributes
+  Tag_CPU_name: "ARM v7"
+  Tag_CPU_arch: v7
+  Tag_CPU_arch_profile: Application
+  Tag_ARM_ISA_use: Yes
+  Tag_THUMB_ISA_use: Thumb-2
+  Tag_VFP_arch: VFPv3
+  Tag_NEON_arch: NEONv1
+  Tag_ABI_PCS_wchar_t: 4
+  Tag_ABI_FP_denormal: Needed
+  Tag_ABI_FP_exceptions: Needed
+  Tag_ABI_FP_number_model: IEEE 754
+  Tag_ABI_align8_needed: Yes
+  Tag_ABI_enum_size: int
+  Tag_ABI_HardFP_use: SP and DP

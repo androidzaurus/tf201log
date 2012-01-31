@@ -1,0 +1,1400 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.36.3 (android@Mercury) (gcc version 4.4.3 (GCC) ) #1 SMP PREEMPT Sat Dec 24 01:57:20 CST 2011
+<4>[    0.000000] CPU: ARMv7 Processor [412fc099] revision 9 (ARMv7), cr=10c5387f
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+<4>[    0.000000] Machine: cardhu
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<6>[    0.000000] Found tegra_fbmem: 003e8a00@9fc15000
+<6>[    0.000000] Tegra reserved memory:
+<6>[    0.000000] LP0:                    9fbed000 - 9fbeefff
+<6>[    0.000000] Bootloader framebuffer: 9fc15000 - 9fffdfff
+<6>[    0.000000] Framebuffer:            bed00000 - bf5fffff
+<6>[    0.000000] 2nd Framebuffer:        bf600000 - bfefffff
+<6>[    0.000000] Carveout:               00000000 - 00000000
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 257280
+<7>[    0.000000] free_area_init_node: node 0, pgdat c06add60, node_mem_map c0774000
+<7>[    0.000000]   Normal zone: 1536 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 195072 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 512 pages used for memmap
+<7>[    0.000000]   HighMem zone: 60160 pages, LIFO batch:15
+<6>[    0.000000] PERCPU: Embedded 8 pages/cpu @c0f7c000 s8608 r8192 d15968 u65536
+<6>[    0.000000] pcpu-alloc: s8608 r8192 d15968 u65536 alloc=16*4096
+<6>[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 255232
+<5>[    0.000000] Kernel command line: tegraid=30.1.3.0.0 mem=1024M@2048M vmalloc=128M video=tegrafb no_console_suspend=1 console=none debug_uartport=hsport usbcore.old_scheme_first=1 lp0_vec=8192@0x9fbed000 tegra_fbmem=4098560@0x9fc15000 core_edp_mv=1300 tegraboot=sdmmc gpt gpt_sector=124174335 androidboot.carrier=wifi-only 
+<6>[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Memory: 1005MB = 1005MB total
+<5>[    0.000000] Memory: 1007916k/1007916k available, 40660k reserved, 242688K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xf0800000 - 0xf8000000   ( 120 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc003a000   ( 200 kB)
+<5>[    0.000000]       .text : 0xc003a000 - 0xc060d000   (5964 kB)
+<5>[    0.000000]       .data : 0xc0636000 - 0xc06ae860   ( 483 kB)
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] 	RCU-based detection of stalled CPUs is disabled.
+<6>[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+<6>[    0.000000] NR_IRQS:800
+<6>[    6.003770] Calibrating delay loop... 1992.29 BogoMIPS (lpj=9961472)
+<6>[    6.273604] pid_max: default: 32768 minimum: 301
+<4>[    6.273797] Mount-cache hash table entries: 512
+<6>[    6.274265] Initializing cgroup subsys debug
+<6>[    6.274283] Initializing cgroup subsys cpuacct
+<6>[    6.274302] Initializing cgroup subsys freezer
+<6>[    6.274347] CPU: Testing write buffer coherency: ok
+<6>[    6.274583] Calibrating local timer... 499.68MHz, setting to 4.00MHz.
+<4>[    6.363899] CPU1: Booted secondary processor
+<4>[    6.373893] CPU2: Booted secondary processor
+<4>[    6.383878] CPU3: Booted secondary processor
+<6>[    6.384014] Brought up 4 CPUs
+<6>[    6.384032] SMP: Total of 4 processors activated (7969.17 BogoMIPS).
+<6>[    6.390429] regulator: core version 0.5
+<6>[    6.390735] NET: Registered protocol family 16
+<6>[    6.391541] host1x bus init
+<6>[    6.391856] Tegra3: CPU Speedo ID 3, Soc Speedo ID 2
+<6>[    6.391871] Tegra Revision: (null) SKU: 0x83 CPU Process: 2 Core Process: 0
+<4>[    6.393077] Lowering cbus maximum rate from 700000000 to 520000000
+<4>[    6.393262] Lowering pll_c maximum rate from 1400000000 to 1066000000
+<4>[    6.395390] Lowering ndflash maximum rate from 240000000 to 200000000
+<4>[    6.395466] Lowering sbc1 maximum rate from 160000000 to 100000000
+<4>[    6.395507] Lowering sbc2 maximum rate from 160000000 to 100000000
+<4>[    6.395547] Lowering sbc3 maximum rate from 160000000 to 100000000
+<4>[    6.395586] Lowering sbc4 maximum rate from 160000000 to 100000000
+<4>[    6.395626] Lowering sbc5 maximum rate from 160000000 to 100000000
+<4>[    6.395664] Lowering sbc6 maximum rate from 160000000 to 100000000
+<4>[    6.395749] Lowering dsia maximum rate from 500000000 to 275000000
+<4>[    6.395783] Lowering dsib maximum rate from 500000000 to 275000000
+<4>[    6.395835] Lowering cpu_g maximum rate from 1700000000 to 1400000000
+<6>[    6.395880] tegra dvfs: VDD_CPU nominal 1125mV, scaling enabled
+<6>[    6.395889] tegra dvfs: VDD_CORE nominal 1300mV, scaling enabled
+<6>[    6.398389] 
+<6>[    6.398392] Tegra3 fuse revision 25 tegra_booting_info reg=0
+<4>[    6.400103] tegra_booting_info-normal
+<6>[    6.401190] ram_console: got buffer at bff00000, size 100000
+<6>[    6.401331] ram_console: uncorrectable error in header
+<6>[    6.401339] ram_console: no valid data in buffer (sig = 0x51454455)
+<6>[    6.409733] console [ram-1] enabled
+<4>[    6.410015] Set Wi-Fi clock to 48MHz
+<3>[    6.410156] Write protect gpio request failed:-22
+<6>[    6.410398] Registering the device TPS62361B
+<6>[    6.410836] ### Touch Init...
+<6>[    6.410977] ### BoardInfo.sku = 0A00
+<6>[    6.411053] ### sku = 0A00
+<6>[    6.411129] ### TOUCHSCREEN:  Inside generic_touch_init()
+<6>[    6.513627] Registering tegra-kbc
+<6>[    6.513761] Registering gpio keys
+<6>[    6.524700] Registering cam pca6416
+<6>[    6.524852] fjm6mo i2c_register_board_info
+<6>[    6.524928] mi1040 i2c_register_board_info
+<6>[    6.525074] Registering pmu pca6416
+<6>[    6.525282] *** MPU START *** cardhu_mpuirq_init...
+<6>[    6.525360] *** MPU END *** cardhu_mpuirq_init...
+<6>[    6.525439] cardhu_nct1008_init: Throttling limit 85C OK
+<4>[    6.525759] BOARD_PM269: dvfs_TF201_500MHZ 
+<6>[    6.525919] tegra: validated EMC DFS table
+<6>[    6.526130] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+<6>[    6.526446] tegra_iovmm_register: added iovmm-smmu
+<4>[    6.530432] bio: create slab <bio-0> at 0
+<5>[    6.531091] SCSI subsystem initialized
+<6>[    6.531462] tegra_otg_init+ #####
+<6>[    6.531656] tegra-otg tegra-otg: otg transceiver registered
+<6>[    6.531764] tegra_otg_init- #####
+<6>[    6.531925] usbcore: registered new interface driver usbfs
+<6>[    6.532124] usbcore: registered new interface driver hub
+<6>[    6.532282] usbcore: registered new device driver usb
+<6>[    6.533911] tps6591x 4-002d: VERNUM is 02
+<6>[    6.535167] regulator: tps6591x_VIO: 1500 <--> 3300 mV at 1800 mV normal standby
+<6>[    6.536356] regulator: tps6591x_VDD_1: 600 <--> 1500 mV at 1300 mV normal standby
+<6>[    6.537227] regulator: tps6591x_VDD_2: 600 <--> 1500 mV at 1200 mV normal standby
+<6>[    6.538421] regulator: tps6591x_VDDCTRL: 600 <--> 1400 mV at 1025 mV normal standby
+<6>[    6.538996] regulator: tps6591x_LDO_1: 1000 <--> 3300 mV at 2850 mV normal standby
+<6>[    6.539603] regulator: tps6591x_LDO_2: 1050 <--> 3300 mV at 1000 mV normal standby
+<6>[    6.540019] regulator: tps6591x_LDO_3: 1000 <--> 3300 mV at 1000 mV normal standby
+<6>[    6.540601] regulator: tps6591x_LDO_4: 1000 <--> 3300 mV at 1200 mV normal standby
+<6>[    6.541079] regulator: tps6591x_LDO_5: 1000 <--> 3300 mV at 1000 mV normal standby
+<6>[    6.541708] regulator: tps6591x_LDO_6: 1200 mV normal standby
+<6>[    6.542522] regulator: tps6591x_LDO_7: 1200 mV normal standby
+<6>[    6.543058] regulator: tps6591x_LDO_8: 1000 <--> 3300 mV at 1000 mV normal standby
+<6>[    6.544047] tps6591x register misc device for I2C stress test rc=0
+<4>[    6.544292] tegra-i2c tegra-i2c.4: I2c error status 0x00000008
+<4>[    6.544436] tegra-i2c tegra-i2c.4: no acknowledge from address 0x20
+<4>[    6.544579] tegra-i2c tegra-i2c.4: Packet status 0x00010009
+<3>[    6.545687] pca953x 4-0020: failed reading register
+<4>[    6.545772] pca953x: probe of 4-0020 failed with error -121
+<4>[    7.543653] ------------[ cut here ]------------
+<4>[    7.543755] WARNING: at /home/android/Project/AutoSync/Honeycomb-mr2-t30-r3/kernel/drivers/i2c/busses/i2c-tegra.c:623 tegra_i2c_xfer+0x37c/0x3e0()
+<4>[    7.543961] Modules linked in:
+<4>[    7.544137] [<c00409d8>] (unwind_backtrace+0x0/0xfc) from [<c008eb00>] (warn_slowpath_common+0x4c/0x64)
+<4>[    7.544289] [<c008eb00>] (warn_slowpath_common+0x4c/0x64) from [<c008eb34>] (warn_slowpath_null+0x1c/0x24)
+<4>[    7.544378] [<c008eb34>] (warn_slowpath_null+0x1c/0x24) from [<c02fc164>] (tegra_i2c_xfer+0x37c/0x3e0)
+<4>[    7.544468] [<c02fc164>] (tegra_i2c_xfer+0x37c/0x3e0) from [<c02f9d84>] (i2c_transfer+0xbc/0x170)
+<4>[    7.544618] [<c02f9d84>] (i2c_transfer+0xbc/0x170) from [<c02fa190>] (i2c_smbus_xfer+0x2bc/0x52c)
+<4>[    7.544769] [<c02fa190>] (i2c_smbus_xfer+0x2bc/0x52c) from [<c02fa63c>] (i2c_smbus_read_word_data+0x34/0x44)
+<4>[    7.544926] [<c02fa63c>] (i2c_smbus_read_word_data+0x34/0x44) from [<c0208398>] (pca953x_read_reg+0x50/0x70)
+<4>[    7.545081] [<c0208398>] (pca953x_read_reg+0x50/0x70) from [<c04a6cd0>] (pca953x_probe+0xb0/0x19c)
+<4>[    7.545168] [<c04a6cd0>] (pca953x_probe+0xb0/0x19c) from [<c02f8ca8>] (i2c_device_probe+0xbc/0xe4)
+<4>[    7.545327] [<c02f8ca8>] (i2c_device_probe+0xbc/0xe4) from [<c0252efc>] (driver_probe_device+0x98/0x1a8)
+<4>[    7.545477] [<c0252efc>] (driver_probe_device+0x98/0x1a8) from [<c0252468>] (bus_for_each_drv+0x60/0x8c)
+<4>[    7.545625] [<c0252468>] (bus_for_each_drv+0x60/0x8c) from [<c0253170>] (device_attach+0x70/0x94)
+<4>[    7.545773] [<c0253170>] (device_attach+0x70/0x94) from [<c025227c>] (bus_probe_device+0x24/0x40)
+<4>[    7.545919] [<c025227c>] (bus_probe_device+0x24/0x40) from [<c0250cd8>] (device_add+0x32c/0x4e4)
+<4>[    7.546005] [<c0250cd8>] (device_add+0x32c/0x4e4) from [<c02f95b0>] (i2c_new_device+0x10c/0x144)
+<4>[    7.546155] [<c02f95b0>] (i2c_new_device+0x10c/0x144) from [<c02f997c>] (i2c_register_adapter+0x158/0x1f4)
+<4>[    7.546305] [<c02f997c>] (i2c_register_adapter+0x158/0x1f4) from [<c02f9ac8>] (i2c_add_numbered_adapter+0xb0/0xc8)
+<4>[    7.546455] [<c02f9ac8>] (i2c_add_numbered_adapter+0xb0/0xc8) from [<c02fc4e8>] (tegra_i2c_probe+0x320/0x4b8)
+<4>[    7.546608] [<c02fc4e8>] (tegra_i2c_probe+0x320/0x4b8) from [<c0253e74>] (platform_drv_probe+0x18/0x1c)
+<4>[    7.546758] [<c0253e74>] (platform_drv_probe+0x18/0x1c) from [<c0252efc>] (driver_probe_device+0x98/0x1a8)
+<4>[    7.546844] [<c0252efc>] (driver_probe_device+0x98/0x1a8) from [<c0253098>] (__driver_attach+0x8c/0x90)
+<4>[    7.546992] [<c0253098>] (__driver_attach+0x8c/0x90) from [<c0252738>] (bus_for_each_dev+0x60/0x8c)
+<4>[    7.547141] [<c0252738>] (bus_for_each_dev+0x60/0x8c) from [<c0252008>] (bus_add_driver+0xa0/0x234)
+<4>[    7.547289] [<c0252008>] (bus_add_driver+0xa0/0x234) from [<c0253348>] (driver_register+0x78/0x144)
+<4>[    7.547441] [<c0253348>] (driver_register+0x78/0x144) from [<c003a4f4>] (do_one_initcall+0x30/0x1a0)
+<4>[    7.547527] [<c003a4f4>] (do_one_initcall+0x30/0x1a0) from [<c00085a4>] (kernel_init+0x14c/0x210)
+<4>[    7.547612] [<c00085a4>] (kernel_init+0x14c/0x210) from [<c003bcf4>] (kernel_thread_exit+0x0/0x8)
+<4>[    7.547763] ---[ end trace 1b75b31a2719ed1c ]---
+<3>[    7.547842] tegra-i2c tegra-i2c.2: i2c transfer timed out, addr 0x0020, data 0x02
+<3>[    7.549003] pca953x 2-0020: failed reading register
+<4>[    7.549150] pca953x: probe of 2-0020 failed with error -110
+<6>[    7.552438] Advanced Linux Sound Architecture Driver Version 1.0.23.
+<6>[    7.552894] Bluetooth: Core ver 2.15
+<6>[    7.553000] NET: Registered protocol family 31
+<6>[    7.553077] Bluetooth: HCI device and connection manager initialized
+<6>[    7.553219] Bluetooth: HCI socket layer initialized
+<6>[    7.553902] regulator: tps62361B: 500 <--> 1770 mV at 1160 mV normal standby
+<6>[    7.554188] tps6236x register misc device for I2C stress test rc=0 tps->chip_id=1 chip_id=87
+<6>[    7.554751] regulator: gpio-switch-en_5v_cp: 5000 mV normal standby
+<6>[    7.555210] regulator: gpio-switch-en_5v0: 5000 mV normal standby
+<6>[    7.555707] regulator: gpio-switch-en_ddr: 1500 mV normal standby
+<6>[    7.556141] regulator: gpio-switch-en_3v3_sys: 3300 mV normal standby
+<6>[    7.556551] regulator: gpio-switch-en_3v3_modem: 3300 mV normal standby
+<6>[    7.556736] regulator: gpio-switch-cam3_ldo_en: 3300 mV normal standby
+<6>[    7.557242] regulator: gpio-switch-en_vdd_com: 3300 mV normal standby
+<6>[    7.557472] regulator: gpio-switch-en_3v3_fuse: 3300 mV normal standby
+<6>[    7.557655] regulator: gpio-switch-en_3v3_emmc: 3300 mV normal standby
+<6>[    7.557894] regulator: gpio-switch-en_vdd_sdmmc1: 3300 mV normal standby
+<6>[    7.558057] regulator: gpio-switch-en_3v3_pex_hvdd: 3300 mV normal standby
+<6>[    7.558289] regulator: gpio-switch-en_1v8_cam: 1800 mV normal standby
+<6>[    7.558552] regulator: gpio-switch-dis_5v_switch: 5000 mV normal standby
+<6>[    7.558723] regulator: gpio-switch-en_usb1_vbus_oc: 5000 mV normal standby
+<3>[    7.558898] gpio-switch-regulator gpio-switch-regulator: Unable to request gpio 122
+<3>[    7.558979] gpio-switch-regulator gpio-switch-regulator: Unable to register regulator gpio-switch-en_vddio_vid_oc
+<6>[    7.559182] regulator: gpio-switch-en_vdd_bl: 5000 mV normal standby
+<6>[    7.559420] regulator: gpio-switch-en_vdd_pnl1: 3300 mV normal standby
+<6>[    7.559686] tegra: started io power detection dynamic control
+<6>[    7.559765] tegra: NO_IO_POWER setting 0x5210
+<6>[    7.559844] Switching to clocksource timer_us
+<4>[    7.560010] stop_machine_cpu_stop cpu=2
+<4>[    7.560017] stop_machine_cpu_stop cpu=1
+<4>[    7.560023] stop_machine_cpu_stop cpu=0
+<4>[    7.560029] stop_machine_cpu_stop cpu=3
+<4>[    7.560379] __stop_cpus: wait_for_completion_timeout+
+<4>[    7.560520] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<6>[    7.561255] tegra-nvmap tegra-nvmap: created carveout iram (255KiB)
+<6>[    7.562147] NET: Registered protocol family 2
+<6>[    7.562317] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    7.562775] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    7.564398] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)
+<6>[    7.565359] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    7.565437] TCP reno registered
+<6>[    7.565579] UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    7.565680] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    7.565983] NET: Registered protocol family 1
+<6>[    7.566189] Unpacking initramfs...
+<6>[    7.588744] Freeing initrd memory: 412K
+<6>[    7.588918] PMU: registered new PMU device of type 0
+<6>[    7.589308] Tegra auto-hotplug initialized: disabled
+<6>[    7.589458] cpu-tegra: init EDP limit: 1300 MHz
+<6>[    7.590150] vibrator_init+ #####
+<6>[    7.590325] vibrator_init- #####
+<4>[    7.608227] highmem bounce pool size: 64 pages
+<6>[    7.608461] ashmem: initialized
+<6>[    7.609080] fuse init (API version 7.15)
+<6>[    7.610015] io scheduler noop registered (default)
+<4>[    7.610257] DIDIM check brightness=224 
+<6>[    7.612191] tegra_grhost tegra_grhost: initialized
+<6>[    7.612368] tegra_dc_module_init+ #####
+<6>[    7.612446] tegra_dc_module_init- #####
+<6>[    7.612595] host1x: tegradc tegradc
+<4>[    7.612813] tegradc tegradc.0: Failed to enable Tegra DC extensions.
+<4>[    7.612897] Disp: diff_msec= 7614
+<6>[    7.613491] tegradc tegradc.0: probed
+<6>[    7.613790] tegradc tegradc.0: probed
+<6>[    7.614002] tegradc tegradc.0: registered overlay
+<6>[    7.614261] input: tegra_dc0.input_tick as /devices/virtual/input/input0
+<6>[    7.614386] host1x: tegradc tegradc
+<6>[    7.615077] nvhdcp: using "always on" policy.
+<4>[    7.615174] tegradc tegradc.1: Failed to enable Tegra DC extensions.
+<6>[    7.615346] tegradc tegradc.1: probed
+<6>[    7.615638] tegradc tegradc.1: probed
+<6>[    7.615828] tegradc tegradc.1: registered overlay
+<6>[    7.616075] input: tegra_dc1.input_tick as /devices/virtual/input/input1
+<3>[    7.616171] hdmi: couldn't get regulator vdd_hdmi_con
+<6>[    7.616622] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<6>[    7.617149] tegra_uart.0: ttyHS0 at I/O 0x0 (irq = 68) is a unknown
+<6>[    7.617355] Registered UART port ttyHS0
+<6>[    7.617463] tegra_uart.1: ttyHS1 at I/O 0x0 (irq = 69) is a unknown
+<6>[    7.617661] Registered UART port ttyHS1
+<6>[    7.617763] tegra_uart.2: ttyHS2 at I/O 0x0 (irq = 78) is a unknown
+<6>[    7.617971] Registered UART port ttyHS2
+<6>[    7.618075] tegra_uart.3: ttyHS3 at I/O 0x0 (irq = 122) is a unknown
+<6>[    7.618210] Registered UART port ttyHS3
+<6>[    7.618375] tegra_uart.4: ttyHS4 at I/O 0x0 (irq = 123) is a unknown
+<6>[    7.618512] Registered UART port ttyHS4
+<6>[    7.618687] Initialized tegra uart driver
+<6>[    7.620563] loop: module loaded
+<6>[    7.620657] bcm4329_rfkill_init+ #####
+<4>[    7.620852] bcm4329_rfkill_probe: can't find bcm4329_32k_clk.				assuming 32k clock to chip
+<4>[    7.620933] bcm4329_rfkill_probe : can't find reset gpio.
+<6>[    7.621185] bcm4329_rfkill_init- #####
+<6>[    7.621263] mpu_init+ #####
+<6>[    7.621341] gpio 2.85V 143 set to 1
+<6>[    7.621519] i2c i2c-2: mpu_probe
+<6>[    7.621600] i2c i2c-2: mpu3050: +kxtf9
+<6>[    7.621678] i2c i2c-2: Installing Accel irq using 341
+<6>[    7.621930] i2c i2c-2: mpu3050: +ami306
+<6>[    7.622010] i2c i2c-2: Installing Compass irq using 400
+<4>[    7.622233] i2c i2c-2: mpu3050: No Pressure Present
+<4>[    7.622839] mldl_cfg:Reset MPU3050
+<6>[    7.645338] kxtf9_init+ #####
+<6>[    7.660388] kxtf9_init- #####
+<6>[    7.660468] ami306_init+ #####
+<4>[    8.114745] MPL-compassfine x:45    y:45    z:46   
+<6>[    8.125249] ami306_init- #####
+<6>[    8.125396] i2c i2c-2: Installing irq using 409
+<6>[    8.125477] i2c i2c-2: Module Param interface = mpuirq
+<6>[    8.126811] mpu_init: Probe name mpu3050
+<6>[    8.126891] mpu_init- #####
+<4>[    8.127045] nct1008_probe+
+<6>[    8.127140] nct1008 4-004c: success in enabling rail vdd_nct1008
+<6>[    8.129158] nct1008 register misc device for I2C stress test rc=0
+<6>[    8.129341] nct1008 4-004c: nct1008_probe: initialized
+<4>[    8.200879] nct1008_get_temp: ret temp=33C 
+<4>[    8.200958] therm_throttle enable=0
+<4>[    8.201110] tegra_watchdog_enable timeout=60
+<4>[    8.201187] nct1008_probe-
+<6>[    8.201821] PPP generic driver version 2.4.2
+<6>[    8.202053] PPP Deflate Compression module registered
+<6>[    8.202132] PPP BSD Compression module registered
+<6>[    8.202867] PPP MPPE Compression module registered
+<6>[    8.202951] NET: Registered protocol family 24
+<6>[    8.203408] usbcore: registered new interface driver asix
+<6>[    8.203582] usbcore: registered new interface driver cdc_ether
+<6>[    8.203687] usbcore: registered new interface driver CDC NCM device
+<6>[    8.203865] usbcore: registered new interface driver smsc95xx
+<6>[    8.203970] usbcore: registered new interface driver net1080
+<6>[    8.204137] usbcore: registered new interface driver cdc_subset
+<6>[    8.204241] usbcore: registered new interface driver zaurus
+<6>[    8.204392] asuspec_init+ #####
+<5>[    8.204470] asuspec: [asuspec_init] cdev_alloc
+<5>[    8.204834] asuspec: [asuspec_send_ec_req] send EC_Request
+<6>[    8.205043] asuspec_init- #####
+<6>[    8.205122] asusdec_init+ #####
+<5>[    8.205262] asusdec: [asusdec_init] cdev_alloc
+<3>[    8.205494] power_supply dock_battery: driver failed to report `status' property
+<3>[    8.205741] power_supply dock_battery: driver failed to report `status' property
+<6>[    8.205958] input: lid_input as /devices/platform/tegra-i2c.1/i2c-1/1-0019/input/input2
+<5>[    8.206233] asusdec: [asusdec_irq_hall_sensor] LID open
+<6>[    8.206513] asusdec_init- #####
+<6>[    8.206668] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    8.206778] tegra_ehci_probe+ #####
+<5>[    8.208040] asusdec: [asusdec_kp_smi] ASUSDEC_SMI_BACKLIGHT_ON
+<5>[    8.208125] asusdec: [asusdec_reset_dock] send EC_Request
+<6>[    8.210599] tegra-ehci tegra-ehci.2: Tegra EHCI Host Controller
+<6>[    8.210734] tegra-ehci tegra-ehci.2: new USB bus registered, assigned bus number 1
+<6>[    8.240416] tegra-ehci tegra-ehci.2: irq 129, io mem 0x7d008000
+<5>[    8.260397] asusdec: [asusdec_dock_init_work_function] TF201 dock-init
+<6>[    8.260412] tegra-ehci tegra-ehci.2: USB 2.0 started, EHCI 1.00
+<6>[    8.260489] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    8.260498] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    8.260506] usb usb1: Product: Tegra EHCI Host Controller
+<6>[    8.260512] usb usb1: Manufacturer: Linux 2.6.36.3 ehci_hcd
+<6>[    8.260518] usb usb1: SerialNumber: tegra-ehci.2
+<6>[    8.260815] hub 1-0:1.0: USB hub found
+<6>[    8.260831] hub 1-0:1.0: 1 port detected
+<3>[    8.261013] DOCK_IN GPIO164 request fault!-16
+<6>[    8.261028] gpio_dock_in_irq_init: request irq = 388, ret = 0
+<6>[    8.261034] tegra_ehci_probe- #####
+<6>[    8.261134] usbcore: registered new interface driver cdc_wdm
+<6>[    8.261140] Initializing USB Mass Storage driver...
+<6>[    8.261210] usbcore: registered new interface driver usb-storage
+<6>[    8.261216] USB Mass Storage support registered.
+<6>[    8.261306] usbcore: registered new interface driver usbserial
+<6>[    8.261313] usbserial: USB Serial Driver core
+<6>[    8.261319] NVidia Tegra High-Speed USB SOC Device Controller driver (Apr 20, 2007)
+<6>[    8.261325] udc_init+ #####
+<3>[    8.261332] DOCK_IN GPIO164 request fault!-16
+<6>[    8.261385] gpio_limit_set1_irq_init: request irq = 285, ret = 0
+<6>[    8.261420] fsl_udc_probe()
+<5>[    8.262699] asusdec: [asusdec_dock_init_work_function] Dock-in detected
+<3>[    8.266736] utmi_phy_clk_disable: timeout waiting for phy to stabilize
+<6>[    8.266925] tegra-otg tegra-otg: SUSPEND --> PERIPHERAL
+<6>[    8.267006] fsl_vbus_session, vbus_active=0, is_active=1
+<6>[    8.267249] udc_init- #####
+<6>[    8.267326] android init
+<6>[    8.267400] init+ #####
+<6>[    8.267565] android_probe pdata: c066ab64
+<6>[    8.267668] android_bind
+<7>[    8.267744] android_bind_config
+<4>[    8.267820] Gadget Android: controller 'fsl-tegra-udc' not recognized
+<6>[    8.268058] android_usb gadget: android_usb ready
+<6>[    8.268138] fsl-tegra-udc: bind to driver android_usb
+<6>[    8.268309] init- #####
+<6>[    8.268384] f_adb init
+<6>[    8.268458] init+ #####
+<6>[    8.268532] android_register_function adb
+<6>[    8.268670] init- #####
+<6>[    8.268743] f_mass_storage init
+<6>[    8.268843] fsg_probe pdev: c066b648, pdata: c066b9a0
+<6>[    8.269012] android_register_function usb_mass_storage
+<6>[    8.269089] f_mtp init
+<6>[    8.269163] init+ #####
+<6>[    8.269300] android_register_function mtp
+<6>[    8.269375] init- #####
+<6>[    8.269448] f_rndis init
+<6>[    8.269522] init+ #####
+<6>[    8.269715] android_register_function rndis
+<6>[    8.269792] init- #####
+<6>[    8.269867] f_accessory init
+<6>[    8.269941] init+ #####
+<6>[    8.270077] android_register_function accessory
+<6>[    8.270156] rndis_function_bind_config MAC: 02:00:00:00:00:00
+<4>[    8.270320] android_usb gadget: using random self ethernet address
+<4>[    8.270420] android_usb gadget: using random host ethernet address
+<6>[    8.270808] usb0: MAC 6a:17:f2:65:e3:84
+<6>[    8.270887] usb0: HOST MAC aa:91:48:28:2a:76
+<6>[    8.271032] acc_bind_config
+<6>[    8.271304] mtp_bind_config
+<6>[    8.271572] adb_bind_config
+<6>[    8.271818] init- #####
+<6>[    8.272323] input: gpio-keys as /devices/platform/gpio-keys.0/input/input3
+<6>[    8.272532] gpio_keys: Reported pressed KEY_POWER
+<6>[    8.272616] gpio_keys: Released KEY_POWER
+<6>[    8.273084] input: tegra-kbc as /devices/platform/tegra-kbc/input/input4
+<6>[    8.273328] usbcore: registered new interface driver xpad
+<6>[    8.273469] xpad: X-Box pad driver
+<6>[    8.273544] mxt_init+ #####
+<6>[    8.273652] maXTouch 1-004d: RRC:  i2c_check_functionality = 1
+<4>[    8.273841] tegra-i2c tegra-i2c.1: I2c error status 0x0000000a
+<4>[    8.273921] tegra-i2c tegra-i2c.1: no acknowledge from address 0x27
+<4>[    8.274061] tegra-i2c tegra-i2c.1: Packet status 0x00010009
+<4>[    8.310432] tegra-i2c tegra-i2c.1: I2c error status 0x0000000a
+<4>[    8.310575] tegra-i2c tegra-i2c.1: no acknowledge from address 0x27
+<4>[    8.310654] tegra-i2c tegra-i2c.1: Packet status 0x00010009
+<3>[    8.350391] maXTouch 1-004d: The touch is not in bootloader mode.
+<3>[    8.350841] maXTouch 1-004d: Warning: maXTouch Family ID [161] not supported
+<6>[    8.350985] maXTouch 1-004d: Atmel maXTouch (Family UNKNOWN (A1), Variant UNKNOWN (2)) Firmware version [2.0] Build 170
+<6>[    8.351130] maXTouch 1-004d: Atmel maXTouch Configuration [X: 24] x [Y: 32]
+<6>[    8.351426] input: atmel-maxtouch as /devices/platform/tegra-i2c.1/i2c-1/1-004d/input/input5
+<1>[    8.352908] message length: 9
+<6>[    8.359536] maXTouch 1-004d: The touch vendor is 0x03
+<4>[    8.359686] Touch: init register in function:init_touch_config, vendor=03 version=0x20
+<4>[    8.359831] Touch: init register in function:init_touch_config_v2, vendor=03 version=0x20
+<7>[    8.421526] [touch_char]:  Driver init ...
+<7>[    8.421686] [touch_char]:  Register touch_debug cdev, major: 247 
+<7>[    8.421763] [touch_char]:  Driver init done!
+<6>[    8.422214] mxt_init- #####
+<6>[    8.422628] maXTouch 1-004d: maXTouch calibration in progress
+<6>[    8.422777] maXTouch 1-004d: maXTouch chip reset
+<4>[    8.422854] Touch: configuration checksum is 6c59c1
+<4>[    8.422930] Touch: config is BACKUP already
+<6>[    8.423325] using rtc device, rtc_tps6591x, for alarms
+<6>[    8.423429] maXTouch 1-004d: Noise Message with bytes: 0x31:0x3F:0x05:0x06:0x04
+<6>[    8.423671] rtc_tps6591x rtc_tps6591x.0: rtc core: registered rtc_tps6591x as rtc0
+<6>[    8.423961] maXTouch 1-004d: maXTouch calibration in progress
+<6>[    8.426808] rtc_tps6591x rtc_tps6591x.0: RTC Time : 1/23/2012 2:19:54
+<6>[    8.427670] i2c /dev entries driver
+<6>[    8.428193] lirc_dev: IR Remote Control driver registered, major 246 
+<6>[    8.428274] IR NEC protocol handler initialized
+<6>[    8.428413] IR RC5(x) protocol handler initialized
+<6>[    8.428490] IR RC6 protocol handler initialized
+<6>[    8.428628] IR JVC protocol handler initialized
+<6>[    8.428703] IR Sony protocol handler initialized
+<6>[    8.428778] IR LIRC bridge handler initialized
+<6>[    8.428918] Linux video capture interface: v2.00
+<6>[    8.429201] usbcore: registered new interface driver uvcvideo
+<6>[    8.429341] USB Video Class driver (v0.1.0)
+<6>[    8.429525] trpc_sema_init: registered misc dev 10:42
+<6>[    8.429720] trpc_node_register: Adding 'local' to node list
+<6>[    8.430909] maXTouch 1-004d: maXTouch status normal
+<6>[    8.431593] tegra_avp_probe: allocated IOVM at ff00000 for AVP kernel
+<6>[    8.432134] trpc_node_register: Adding 'avp-remote' to node list
+<6>[    8.432414] tegra_avp_probe: message area af04d000/af04d110
+<6>[    8.432634] tegra_camera: probe
+<6>[    8.433028] yuv fjm6mo sensor_init+ #####
+<6>[    8.433198] yuv sensor_probe, compiled at Dec 24 2011 01:57:09
+<4>[    8.433344] yuv_sensor_power_on+
+<6>[    8.433486] gpio 147 set to 0
+<6>[    8.433562] gpio 147 set to 1
+<6>[    8.440725] maXTouch 1-004d: maXTouch calibration in progress
+<6>[    8.450406] maXTouch 1-004d: maXTouch status normal
+<4>[    8.451171] camera mclock on
+<6>[    8.451268] gpio 216 set to 0
+<6>[    8.451403] gpio 216 set to 1
+<4>[    8.451474] yuv_sensor_power_on -
+<6>[    8.460399] cable_detection_work_handler, vbus_active=0, is_active=1
+<6>[    8.460545] The USB cable is connected (0.5A)
+<4>[    8.460623] ========================================================
+<4>[    8.460763] battery_callback  usb_cable_state =1
+<4>[    8.460838] ========================================================
+<4>[    8.460977] battery_callback battery driver not ready
+<4>[    8.461053] Touch charger state: 1
+<5>[    8.470399] asusdec: [asusdec_reset_dock] send EC_Request
+<6>[    8.473505] fjm6mo check version number 0x9891 1
+<4>[    8.473582] yuv_sensor_power_off+
+<6>[    8.473659] gpio 216 set to 0
+<6>[    8.473935] gpio 147 set to 0
+<4>[    8.474013] yuv_sensor_power_off-
+<6>[    8.474125] yuv fjm6mo sensor_init- #####
+<6>[    8.474264] sensor_init+ #####
+<6>[    8.474362] yuv sensor_probe
+<6>[    8.474554] sensor_init- #####
+<4>[    8.474652] pad_probe: client->addr=b 
+<4>[    8.474870] pad_get_psp: pad_device->battery_present=0
+<3>[    8.474952] pad-battery 4-000b: pad_get_psp: i2c read for 7 failed
+<3>[    8.475095] power_supply battery: driver failed to report `status' property
+<4>[    8.475208] pad_get_psp: pad_device->battery_present=0
+<3>[    8.475351] pad-battery 4-000b: pad_get_psp: i2c read for 7 failed
+<3>[    8.475430] power_supply battery: driver failed to report `status' property
+<6>[    8.475871] pad-battery 4-000b: pad-battery: battery driver registered
+<6>[    8.476139] The USB cable status = 1
+<4>[    8.476250] setup_irq: battery_present =1   
+<4>[    8.476354] setup_low_battery_irq:low_battery_present=0 
+<6>[    8.476568] battery register misc device for I2C stress test rc=0
+<6>[    8.476654] gpio 163 set to 1
+<6>[    8.476888] tsensor active instance=0
+<5>[    8.503884] asuspec: [asuspec_chip_init] Model Name: ASUS-TF201-PAD
+<5>[    8.508690] asuspec: [asuspec_chip_init] EC-FW Version: TF201-PAD-0215
+<5>[    8.518175] asuspec: [asuspec_chip_init] PCBA Version: TF201-PAD-SKU1
+<5>[    8.526270] asuspec: [asuspec_enter_normal_mode] Entering normal mode
+<5>[    8.529077] asuspec: [asuspec_work_function] 0x1 0x0 0xff 0xff
+<6>[    8.550396] Tegra chip revision for tsensor detected as: Chip Id=30, Major=1, Minor=3
+<6>[    8.550476] Warning: tsensor coefficient for chip pending
+<6>[    8.550881] Tsensor fuse calibration F1=9678, F2=11982, T1=25, T2=97
+<6>[    8.570454] al3010_init+ #####
+<4>[    8.570595] light sensor info : al3010 init 
+<6>[    8.570671] gpio 143 set to 1
+<4>[    8.570779] light sensor info : al3010 probe successed
+<6>[    8.570917] al3010 2-001c: driver version 1.0 enabled
+<6>[    8.571164] al3010_init- #####
+<6>[    8.571330] device-mapper: uevent: version 1.0.3
+<6>[    8.571631] device-mapper: ioctl: 4.18.0-ioctl (2010-06-29) initialised: dm-devel@redhat.com
+<6>[    8.571793] Bluetooth: HCI UART driver ver 2.2
+<6>[    8.571870] Bluetooth: HCI H4 protocol initialized
+<6>[    8.571947] Bluetooth: HCILL protocol initialized
+<6>[    8.572086] Bluetooth: BlueSleep Mode Driver Ver 1.1
+<6>[    8.572162] bluesleep_init+ #####
+<6>[    8.572311] bluesleep_init- #####
+<6>[    8.572880] cpuidle: using governor ladder
+<6>[    8.573251] cpuidle: using governor menu
+<6>[    8.573366] sdhci: Secure Digital Host Controller Interface driver
+<6>[    8.573507] sdhci: Copyright(c) Pierre Ossman
+<6>[    8.573583] tegra_sdhci_init+ #####
+<6>[    8.573810] sdhci-tegra sdhci-tegra.3: Getting regulator for rail vddio_sdmmc4
+<6>[    8.574045] [mmc]:tegra_sdhci_probe:361 mmc0:reg_vddio: use_count 0
+<6>[    8.574739] [mmc]:tegra_sdhci_probe:415 mmc0: pm_flags 0x0
+<4>[    8.575833] mmc0: Invalid maximum block size, assuming 512 bytes
+<6>[    8.575994] mmc0: no vmmc regulator found
+<6>[    8.578162] [mmc]:mmc_schedule_delayed_work:87 mmc0: delay 0
+<6>[    8.578321] [mmc]:mmc_rescan:1591 mmc0: gpio_69:0 rescan_disable 0
+<6>[    8.578432] mmc0: SDHCI controller on tegra [sdhci-tegra.3] using ADMA
+<6>[    8.578576] sdhci3: initialized irq 63 ioaddr fe600600
+<6>[    8.578696] [mmc]:tegra_sdhci_probe:415 mmc1: pm_flags 0x4
+<4>[    8.579848] mmc1: Invalid maximum block size, assuming 512 bytes
+<6>[    8.579944] mmc1: no vmmc regulator found
+<6>[    8.580460] usb 1-1: new high speed USB device using tegra-ehci and address 2
+<4>[    8.582174] mmc1 clock request: 0KHz. currently 0KHz
+<6>[    8.582319] [mmc]:mmc_schedule_delayed_work:87 mmc1: delay 0
+<6>[    8.582409] mmc1: SDHCI controller on tegra [sdhci-tegra.2] using ADMA
+<6>[    8.582559] sdhci2: initialized irq 51 ioaddr fe600400
+<6>[    8.582627] [mmc]:mmc_rescan:1591 mmc1: gpio_69:0 rescan_disable 0
+<4>[    8.582656] mmc1 clock request: 187KHz. currently 12000KHz
+<6>[    8.582889] sdhci-tegra sdhci-tegra.0: get slot power rail regulator
+<6>[    8.583475] [mmc]:tegra_sdhci_probe:333 mmc2:reg_vdd_slot: use_count 0
+<6>[    8.584094] sdhci-tegra sdhci-tegra.0: Getting regulator for rail vddio_sdmmc1
+<5>[    8.590446] asusdec: [asusdec_lid_report_function] SW_LID report value = 1
+<5>[    8.593369] asusdec: [asusdec_kp_smi] ASUSDEC_SMI_HANDSHAKING
+<6>[    8.599028] [mmc]:tegra_sdhci_probe:361 mmc2:reg_vddio: use_count 0
+<6>[    8.599536] [mmc]:tegra_sdhci_probe:398 mmc2: quirks 0x61001008
+<6>[    8.599615] [mmc]:tegra_sdhci_probe:415 mmc2: pm_flags 0x0
+<4>[    8.600408] mmc1 clock request: 187KHz. currently 12000KHz
+<4>[    8.600820] mmc2: Invalid maximum block size, assuming 512 bytes
+<6>[    8.600976] mmc2: no vmmc regulator found
+<6>[    8.602144] [mmc]:mmc_power_off:1076 mmc2:reg_vdd_slot: use_count 1
+<6>[    8.602289] [mmc]:mmc_power_off:1079 mmc2:reg_vddio: use_count 1
+<6>[    8.603621] [mmc]:mmc_schedule_delayed_work:87 mmc2: delay 0
+<6>[    8.603777] mmc2: SDHCI controller on tegra [sdhci-tegra.0] using ADMA
+<6>[    8.603861] sdhci0: initialized irq 46 ioaddr fe600000
+<6>[    8.604066] tegra_sdhci_init- #####
+<6>[    8.606305] tegra-se tegra-se: tegra_se_probe: complete
+<6>[    8.606755] usbcore: registered new interface driver usbhid
+<6>[    8.606905] usbhid: USB HID core driver
+<6>[    8.607211] logger: created 64K log 'log_main'
+<6>[    8.607413] logger: created 256K log 'log_events'
+<6>[    8.607550] logger: created 64K log 'log_radio'
+<6>[    8.607745] logger: created 64K log 'log_system'
+<4>[    8.608006] tegra-i2c tegra-i2c.2: I2c error status 0x00000008
+<4>[    8.608148] tegra-i2c tegra-i2c.2: no acknowledge from address 0x44
+<4>[    8.608227] tegra-i2c tegra-i2c.2: Packet status 0x00010009
+<3>[    8.609423] isl29028 2-0044: Write to device reg 14 fails status ffffff87
+<3>[    8.609502] isl29028 2-0044: isl29028_chip_init(): fails
+<5>[    8.619182] asusdec: [asusdec_chip_init] Model Name: ASUS-TF201-DOCK
+<6>[    8.619280] usb 1-1: New USB device found, idVendor=05e3, idProduct=0610
+<6>[    8.619423] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+<6>[    8.619502] usb 1-1: Product: USB2.0 Hub
+<6>[    8.622259] hub 1-1:1.0: USB hub found
+<5>[    8.624636] asusdec: [asusdec_chip_init] EC-FW Version: TF201-DOCK-0206
+<6>[    8.624793] hub 1-1:1.0: 4 ports detected
+<5>[    8.639502] asusdec: [asusdec_chip_init] EC-FW Behavior: susb on when receive ec_req
+<6>[    8.639833] input: asusdec as /devices/platform/tegra-i2c.1/i2c-1/1-0019/input/input6
+<6>[    8.650119] [mmc]:mmc_rescan:1687 mmc0:attach eMMC
+<4>[    8.675876] mmc1 clock request: 0KHz. currently 0KHz
+<6>[    8.675963] [mmc]:mmc_rescan:1723 mmc1: finished, extend_wakelock 0 ret 0
+<6>[    8.699388] [mmc]:mmc_decode_cid:110 cid.prv 0x6f
+<6>[    8.704575] android_usb gadget: high speed config #1: android
+<6>[    8.704732] set_config : usb set config wake lock ++
+<6>[    8.723257] [mmc]:mmc_read_ext_csd:258 ext_csd.sectors 0x766c000 prod_name HYNIX  BOOT_SIZE_MULTI 0x20
+<4>[    8.725457] mmc0: mmc_set_clock to 48000000
+<6>[    8.725634] mmc0: new high speed MMC card at address 0001
+<6>[    8.726077] mmcblk0: mmc0:0001 HYNIX  59.2 GiB 
+<6>[    8.726162] [mmc]:mmc_blk_probe:772 mmc0: bus_resume_flags 0x1
+<4>[    8.732356] Primary GPT is invalid, using alternate GPT.
+<6>[    8.732461]  mmcblk0: p1 (偁P) p2 (䅃C) p3 (卍C) p4 (单P) p5 (䕐R) p6 (呙U) p7 (剃A) p8 (䑕A)
+<6>[    8.733454] [mmc]:mmc_rescan:1723 mmc0: finished, extend_wakelock 1 ret 0
+<6>[    8.733605] [mmc]:mmc_rescan:1591 mmc2: gpio_69:0 rescan_disable 0
+<6>[    8.750448] [mmc]:mmc_power_up:1034 mmc2:reg_vdd_slot: use_count 0
+<6>[    8.750592] [mmc]:mmc_power_up:1037 mmc2:reg_vddio: use_count 0
+<6>[    8.774798] rt5631_modinit+ #####
+<4>[    8.774942] No device for DAI RT5631 HIFI
+<4>[    8.775019] No device for DAI RT5631 Reserved
+<6>[    8.775095] rt5631_modinit- #####
+<4>[    8.776989] i2s_set_samplerate: clk_get_rate: 12288000
+<4>[    8.777773] i2s_set_samplerate: clk_get_rate: 1024000
+<4>[    8.778621] i2s_set_samplerate: clk_get_rate: 1024000
+<6>[    8.778778] tegra_spdif_driver_probe
+<6>[    8.780091] tegra_init+ #####
+<7>[    8.780308] enter rt5631_probe
+<6>[    8.780430] RT5631 Audio Codec 0.06 alsa 1.0.23
+<7>[    8.780520] enter rt5631_add_i2c_device
+<7>[    8.783796] enter rt5631_i2c_probe
+<7>[    8.785900] enter rt5631_init
+<6>[    8.790300] asoc: RT5631 HIFI <-> tegra-i2s-1 mapping ok
+<6>[    8.807948] [mmc]:mmc_power_off:1076 mmc2:reg_vdd_slot: use_count 1
+<6>[    8.808030] [mmc]:mmc_power_off:1079 mmc2:reg_vddio: use_count 1
+<6>[    8.809443] [mmc]:mmc_rescan:1723 mmc2: finished, extend_wakelock 0 ret 0
+<4>[    8.887589] tegra_codec_init+
+<4>[    8.887731] tegra_codec_init: audio_data ok
+<4>[    8.887807] tegra_codec_init: audio_data init_done ok
+<4>[    8.888586] tegra_ext_control+, new_con is 0
+<4>[    8.888727] Audio: close headset mic
+<4>[    8.888807] tegra_codec_init: audio_data ext_control ok
+<4>[    8.888897] tegra_codec_init: audio_data control_init ok
+<6>[    8.890018] tegra_init- #####
+<6>[    8.890100] headset_init+ #####
+<4>[    8.890175] HEADSET: Headset detection init
+<4>[    8.890572] HEADSET: Headset detection mode
+<4>[    8.890654] HEADSET: Config Headset Button detection gpio
+<4>[    8.890800] HEADSET: Config Jack-in detection gpio
+<4>[    8.890877] HEADSET: Turn on micbias power
+<4>[    8.910388] HEADSET: Turn off micbias power
+<4>[    8.910882] HEADSET: Config LineOut detection gpio
+<6>[    8.910996] headset_init- #####
+<6>[    8.911135] fm34_init+ #####
+<4>[    8.911210] fm34_init(): project TF201
+<6>[    8.911289] gpio 165 set to 1
+<6>[    8.911363] fm34_init()
+<6>[    8.911631] fm34: [fm34_chip_init] GPIO = 115 , state = 1
+<6>[    8.911710] fm34: [fm34_chip_init] GPIO = 222 , state = 1
+<7>[    8.970397] enter rt5631_set_bias_level
+<4>[    8.970476] rt5631_set_bias_level=2
+<6>[    9.070649] fm34_probe()
+<6>[    9.070764] fm34_init- #####
+<6>[    9.070902] ALSA device list:
+<6>[    9.070978]   #0: tegra-hda at 0x70038000 irq 113
+<6>[    9.071055]   #1: tegra (RT5631)
+<6>[    9.071377] oprofile: using arm/armv7-ca9
+<6>[    9.071574] GACT probability NOT on
+<6>[    9.071660] Mirror/redirect action on
+<6>[    9.071800] u32 classifier
+<6>[    9.071876]     Actions configured
+<6>[    9.071953] Netfilter messages via NETLINK v0.30.
+<6>[    9.072160] nf_conntrack version 0.5.0 (15755 buckets, 63020 max)
+<6>[    9.072568] ctnetlink v0.93: registering with nfnetlink.
+<6>[    9.072832] xt_time: kernel timezone is -0000
+<6>[    9.073063] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    9.073224] arp_tables: (C) 2002 David S. Miller
+<6>[    9.073397] TCP cubic registered
+<6>[    9.074007] NET: Registered protocol family 10
+<6>[    9.074634] lo: Disabled Privacy Extensions
+<6>[    9.075099] Mobile IPv6
+<6>[    9.075184] IPv6 over IPv4 tunneling driver
+<6>[    9.075567] sit0: Disabled Privacy Extensions
+<6>[    9.076025] ip6tnl0: Disabled Privacy Extensions
+<6>[    9.076160] NET: Registered protocol family 17
+<6>[    9.076319] NET: Registered protocol family 15
+<6>[    9.076594] Bluetooth: L2CAP ver 2.15
+<6>[    9.076673] Bluetooth: L2CAP socket layer initialized
+<6>[    9.076824] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[    9.076901] Bluetooth: SCO socket layer initialized
+<6>[    9.077209] Bluetooth: RFCOMM TTY layer initialized
+<6>[    9.077298] Bluetooth: RFCOMM socket layer initialized
+<6>[    9.077382] Bluetooth: RFCOMM ver 1.11
+<6>[    9.077523] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    9.077600] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<5>[    9.077806] Registering SWP/SWPB emulation handler
+<4>[    9.084097] Disabling clock audio_2x left on by bootloader
+<4>[    9.084251] Disabling clock audio4_2x left on by bootloader
+<4>[    9.084331] Disabling clock audio3_2x left on by bootloader
+<4>[    9.084473] Disabling clock audio2_2x left on by bootloader
+<4>[    9.084552] Disabling clock audio1_2x left on by bootloader
+<4>[    9.084694] Disabling clock audio0_2x left on by bootloader
+<4>[    9.084773] Disabling clock audio left on by bootloader
+<4>[    9.084913] Disabling clock audio4 left on by bootloader
+<4>[    9.084990] Disabling clock audio3 left on by bootloader
+<4>[    9.085128] Disabling clock audio2 left on by bootloader
+<4>[    9.085204] Disabling clock audio1 left on by bootloader
+<4>[    9.085279] Disabling clock audio0 left on by bootloader
+<4>[    9.085466] Disabling clock fuse_burn left on by bootloader
+<4>[    9.085549] Disabling clock cclk_lp left on by bootloader
+<4>[    9.085690] Disabling clock pll_x_out0 left on by bootloader
+<4>[    9.085769] Disabling clock pll_d2_out0 left on by bootloader
+<4>[    9.085908] Disabling clock pll_d_out0 left on by bootloader
+<4>[    9.085986] Disabling clock pll_c_out1 left on by bootloader
+<4>[    9.086128] Disabling clock pll_m_out1 left on by bootloader
+<6>[    9.086772] CPU rate: 1000 MHz
+<6>[    9.086978] tegra dvfs: tegra sysfs cap interface is initialized
+<6>[    9.087505] tegra_actmon.emc: Completed initialization (0)
+<6>[    9.087874] tegra_actmon.avp: Completed initialization (0)
+<6>[    9.088103] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<6>[    9.088754] regulator_init_complete: disabling gpio-switch-en_vdd_sdmmc1
+<6>[    9.091179] rtc_tps6591x rtc_tps6591x.0: RTC Time : 1/23/2012 2:19:54
+<6>[    9.091372] rtc_tps6591x rtc_tps6591x.0: setting system clock to 2012-01-23 02:19:54 UTC (1327285194)
+<4>[    9.091640] Warning: unable to open an initial console.
+<6>[    9.091765] Freeing init memory: 200K
+<4>[    9.104789] pad_get_psp  val->intval=Not charging ret=80
+<4>[    9.109650] pad_get_psp voltage_now =8331
+<4>[    9.114429] pad_get_capacity val->intval=100 ret=99
+<4>[    9.119206] pad_get_psp  bat_temp=3009
+<3>[    9.165977] init: could not open /dev/keychord
+<6>[    9.421636] EXT4-fs (mmcblk0p1): mounted filesystem with ordered data mode. Opts: (null)
+<6>[    9.499422] EXT4-fs (mmcblk0p8): mounted filesystem with ordered data mode. Opts: nodelalloc
+<6>[    9.521135] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: nodelalloc
+<4>[    9.659852] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<3>[    9.665949] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+<4>[    9.672494] tntfs: module license 'Commercial. For support email ntfs-support@tuxera.com.' taints kernel.
+<4>[    9.672655] Disabling lock debugging due to kernel taint
+<6>[    9.685755] Tuxera NTFS driver 3011.8.21.2 [Flags: R/W MODULE].
+<6>[    9.693793] Tuxera exFAT driver 3011.8.9 [Flags: R/W MODULE].
+<6>[    9.830873] Tegra auto-hotplug enabled
+<6>[    9.889969] warning: `adbd' uses 32-bit capabilities (legacy support in use)
+<6>[    9.890192] enabling adb
+<6>[    9.911419] adb_open(adbd)
+<6>[   10.094861] reset_config : usb reset config wake unlock --
+<6>[   10.094876] adb_read dev->error = 1
+<6>[   10.094953] adb_release
+<6>[   10.095255] adb_open(adbd)
+<5>[   10.117534] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<6>[   10.378824] android_usb gadget: high speed config #1: android
+<6>[   10.378948] set_config : usb set config wake lock ++
+<4>[   10.484886] mxt_stress_open
+<4>[   10.520807] mxt_stress_ioctl
+<4>[   10.520895] +MXT_FW_UPDATE
+<6>[   10.521039] maXTouch 1-004d: Touch: start doing FW update
+<3>[   10.521518] maXTouch 1-004d: Warning: maXTouch Family ID [161] not supported
+<6>[   10.521667] maXTouch 1-004d: Atmel maXTouch (Family UNKNOWN (A1), Variant UNKNOWN (2)) Firmware version [2.0] Build 170
+<6>[   10.521811] maXTouch 1-004d: Atmel maXTouch Configuration [X: 24] x [Y: 32]
+<6>[   10.521891] maXTouch 1-004d: Firware is the latest version 2.2. No need to update!
+<4>[   10.522299] mxt_stress_release
+<6>[   10.561687] input: elantech_touchscreen as /devices/virtual/input/input7
+<5>[   10.562070] asusdec: [asusdec_chip_init] touchpad and keyboard init
+<4>[   10.602923] ========================================================
+<4>[   10.603127] docking_callback 1  docking_in =1 pu4=0 
+<4>[   10.603235] ========================================================
+<5>[   10.603438] asusdec: [asusdec_pad_battery_report_function] dock_in = 1, ret_val = 0
+<5>[   10.603925] asusdec: [asusdec_audio_report_function] dock_in = 1, dock_speaker = 1, ret_val = 0
+<3>[   11.386654] init: cannot find '/system/bin/bootsound', disabling 'bootsound'
+<4>[   11.555231] DIDIM check brightness=224 
+<4>[   11.571771] DIDIM check brightness=223 
+<4>[   11.822185] DIDIM check brightness=223 
+<4>[   11.837618] DIDIM check brightness=222 
+<4>[   11.853885] DIDIM check brightness=222 
+<4>[   11.871982] DIDIM check brightness=221 
+<4>[   11.889450] DIDIM check brightness=221 
+<4>[   11.904769] DIDIM check brightness=220 
+<4>[   11.920273] DIDIM check brightness=220 
+<4>[   11.930884] stop_machine_cpu_stop cpu=1
+<4>[   11.930896] stop_machine_cpu_stop cpu=2
+<4>[   11.930906] stop_machine_cpu_stop cpu=3
+<4>[   11.932036] stop_machine_cpu_stop cpu=0
+<4>[   11.932384] __stop_cpus: wait_for_completion_timeout+
+<4>[   11.932553] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   11.932640] CPU1: clean shutdown
+<4>[   11.936828] DIDIM check brightness=219 
+<4>[   11.953434] DIDIM check brightness=219 
+<4>[   11.970014] DIDIM check brightness=218 
+<4>[   11.987178] DIDIM check brightness=218 
+<4>[   12.004534] DIDIM check brightness=217 
+<4>[   12.020792] DIDIM check brightness=217 
+<4>[   12.036384] DIDIM check brightness=216 
+<4>[   12.052988] DIDIM check brightness=216 
+<4>[   12.069571] DIDIM check brightness=216 
+<4>[   12.086171] DIDIM check brightness=216 
+<4>[   12.103348] DIDIM check brightness=215 
+<4>[   12.121499] DIDIM check brightness=215 
+<4>[   12.136792] DIDIM check brightness=214 
+<4>[   12.152988] DIDIM check brightness=214 
+<4>[   12.169128] DIDIM check brightness=213 
+<4>[   12.185734] DIDIM check brightness=213 
+<4>[   12.202886] DIDIM check brightness=212 
+<3>[   12.208649] init: sys_prop: permission denied uid:1013  name:media.tegra.max.out.channels
+<3>[   12.209068] init: sys_prop: permission denied uid:1013  name:media.tegra.out.channel.map
+<7>[   12.215352] enter rt5631_hifi_codec_set_dai_fmt
+<7>[   12.215662] enter rt5631_hifi_pcm_params
+<4>[   12.216899] i2s_set_samplerate: clk_get_rate: 12288000
+<7>[   12.217553] enter rt5631_set_bias_level
+<4>[   12.217667] rt5631_set_bias_level=1
+<4>[   12.218927] DIDIM check brightness=212 
+<4>[   12.219940] auxo1_event --SND_SOC_DAPM_POST_PMU
+<4>[   12.224164] hp_event --SND_SOC_DAPM_POST_PMU
+<7>[   12.224298] enter rt5631_set_bias_level
+<4>[   12.224365] rt5631_set_bias_level=0
+<4>[   12.224532] tegra_ext_control+, new_con is 4
+<4>[   12.224657] Audio: close headset mic
+<4>[   12.225858] auxo2_event --SND_SOC_DAPM_POST_PMU
+<4>[   12.235492] DIDIM check brightness=211 
+<4>[   12.236738] spk_event --SND_SOC_DAPM_POST_PMU
+<6>[   12.237139] after virtual spkl power up!
+<6>[   12.238193] after virtual spkr power up!
+<4>[   12.239491] spk_event --SND_SOC_DAPM_POST_PMU
+<3>[   12.240133] init: sys_prop: permission denied uid:1013  name:media.tegra.max.out.channels
+<3>[   12.240844] init: sys_prop: permission denied uid:1013  name:media.tegra.max.out.channels
+<4>[   12.252097] DIDIM check brightness=211 
+<4>[   12.268692] DIDIM check brightness=210 
+<4>[   12.285286] DIDIM check brightness=210 
+<4>[   12.351644] DIDIM check brightness=209 
+<4>[   12.418016] DIDIM check brightness=209 
+<4>[   12.500991] DIDIM check brightness=209 
+<4>[   12.567354] DIDIM check brightness=209 
+<4>[   12.633746] DIDIM check brightness=208 
+<4>[   12.650321] DIDIM check brightness=208 
+<4>[   12.700106] DIDIM check brightness=207 
+<4>[   12.766471] DIDIM check brightness=207 
+<4>[   12.832852] DIDIM check brightness=206 
+<4>[   12.917120] DIDIM check brightness=206 
+<4>[   12.932843] DIDIM check brightness=205 
+<4>[   12.949029] DIDIM check brightness=205 
+<4>[   12.965621] DIDIM check brightness=204 
+<4>[   12.982175] DIDIM check brightness=204 
+<4>[   13.032001] DIDIM check brightness=203 
+<4>[   13.098323] DIDIM check brightness=203 
+<4>[   13.164697] DIDIM check brightness=202 
+<4>[   13.210553] tegra_watchdog_touch
+<4>[   13.211575] nct1008_get_temp: ret temp=34C 
+<4>[   13.231074] DIDIM check brightness=202 
+<4>[   13.314040] DIDIM check brightness=202 
+<4>[   13.380470] DIDIM check brightness=202 
+<4>[   13.446799] DIDIM check brightness=201 
+<4>[   13.513152] DIDIM check brightness=201 
+<4>[   13.579524] DIDIM check brightness=200 
+<4>[   13.645899] DIDIM check brightness=200 
+<4>[   13.695673] DIDIM check brightness=199 
+<4>[   13.762045] DIDIM check brightness=199 
+<4>[   13.828420] DIDIM check brightness=198 
+<4>[   13.878214] DIDIM check brightness=198 
+<4>[   13.894787] DIDIM check brightness=197 
+<4>[   13.944567] DIDIM check brightness=197 
+<4>[   14.010945] DIDIM check brightness=196 
+<6>[   14.050617] tegra_usb_suspend+
+<6>[   14.050698] tegra_usb_suspend: before ehci_halt
+<6>[   14.050762] tegra_usb_suspend: after ehci_halt, ret = 0
+<3>[   14.055916] utmi_phy_clk_disable: timeout waiting for phy to stabilize
+<6>[   14.056004] tegra_usb_suspend-
+<4>[   14.077323] DIDIM check brightness=196 
+<4>[   14.143681] DIDIM check brightness=195 
+<4>[   14.210052] DIDIM check brightness=195 
+<4>[   14.259838] DIDIM check brightness=195 
+<4>[   14.276417] DIDIM check brightness=195 
+<4>[   14.326201] DIDIM check brightness=194 
+<4>[   14.392579] DIDIM check brightness=194 
+<4>[   14.458946] DIDIM check brightness=193 
+<4>[   14.508728] DIDIM check brightness=193 
+<4>[   14.575098] DIDIM check brightness=192 
+<4>[   14.641476] DIDIM check brightness=192 
+<4>[   14.707857] DIDIM check brightness=191 
+<4>[   14.950533] stop_machine_cpu_stop cpu=2
+<4>[   14.950540] stop_machine_cpu_stop cpu=0
+<4>[   14.950546] stop_machine_cpu_stop cpu=3
+<4>[   14.950995] __stop_cpus: wait_for_completion_timeout+
+<4>[   14.951072] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   14.951195] CPU3: clean shutdown
+<4>[   14.956746] DIDIM check brightness=191 
+<6>[   15.610669] charger_pad_dock_detection:1 dock_in_value=0  charger_pad_dock_value =0
+<4>[   15.786380] DIDIM check brightness=190 
+<4>[   15.810457] battery_status_poll 120 1 
+<5>[   15.810610] asuspec: [asuspec_send_ec_req] send EC_Request
+<4>[   15.852753] DIDIM check brightness=190 
+<5>[   15.877374] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[   15.877624] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[   15.935738] DIDIM check brightness=189 
+<4>[   16.002105] DIDIM check brightness=189 
+<4>[   16.068478] DIDIM check brightness=188 
+<4>[   16.083692] pad_get_psp  val->intval=Full ret=80
+<4>[   16.088549] pad_get_psp voltage_now =8315
+<4>[   16.093311] pad_get_capacity val->intval=100 ret=99
+<4>[   16.098136] pad_get_psp  bat_temp=3009
+<4>[   16.134853] DIDIM check brightness=188 
+<4>[   16.201218] DIDIM check brightness=187 
+<4>[   16.267590] DIDIM check brightness=187 
+<4>[   16.333970] DIDIM check brightness=187 
+<4>[   16.400329] DIDIM check brightness=187 
+<4>[   16.466706] DIDIM check brightness=186 
+<4>[   16.533082] DIDIM check brightness=186 
+<4>[   16.599448] DIDIM check brightness=185 
+<4>[   16.665829] DIDIM check brightness=185 
+<4>[   16.732191] DIDIM check brightness=184 
+<4>[   16.798554] DIDIM check brightness=184 
+<3>[   16.818830] /home/android/Project/AutoSync/Honeycomb-mr2-t30-r3/kernel/drivers/misc/mpu3050/compass/ami306.c|ami306_get_config|795 returning 4
+<3>[   16.818960] /home/android/Project/AutoSync/Honeycomb-mr2-t30-r3/kernel/drivers/misc/mpu3050/mldl_cfg.c|inv_mpu_get_slave_config|2137 returning 4
+<4>[   16.840573] CPU1: Booted secondary processor
+<4>[   16.864919] DIDIM check brightness=183 
+<5>[   17.096770] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<7>[   17.240700] enter rt5631_set_bias_level
+<4>[   17.240798] rt5631_set_bias_level=1
+<4>[   17.241715] hp_event --SND_SOC_DAPM_PRE_PMD
+<4>[   17.242353] spk_event --SND_SOC_DAPM_PRE_PMD
+<4>[   17.248178] spk_event --SND_SOC_DAPM_PRE_PMD
+<4>[   17.253956] spk_event --SND_SOC_DAPM_POST_PMD
+<6>[   17.254388] after virtual spk power up!
+<6>[   17.255223] after virtual spk power up!
+<4>[   17.256878] spk_event --SND_SOC_DAPM_POST_PMD
+<4>[   17.258339] auxo1_event --SND_SOC_DAPM_PRE_PMD
+<4>[   17.259044] auxo2_event --SND_SOC_DAPM_PRE_PMD
+<7>[   17.260162] enter rt5631_set_bias_level
+<4>[   17.260245] rt5631_set_bias_level=2
+<6>[   17.585498] maXTouch 1-004d: Noise Message with bytes: 0x23:0x10:0x03:0x06:0x03
+<4>[   18.220422] tegra_watchdog_touch
+<4>[   18.221121] nct1008_get_temp: ret temp=35C 
+<4>[   18.960656] stop_machine_cpu_stop cpu=1
+<4>[   18.960673] stop_machine_cpu_stop cpu=2
+<4>[   18.960685] stop_machine_cpu_stop cpu=0
+<4>[   18.961497] __stop_cpus: wait_for_completion_timeout+
+<4>[   18.961655] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   18.961897] CPU1: clean shutdown
+<4>[   21.010733] stop_machine_cpu_stop cpu=2
+<4>[   21.010749] stop_machine_cpu_stop cpu=0
+<4>[   21.011448] __stop_cpus: wait_for_completion_timeout+
+<4>[   21.011606] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   21.011850] CPU2: clean shutdown
+<6>[   21.466025] maXTouch 1-004d: Noise Message with bytes: 0x21:0x10:0x01:0x06:0x02
+<4>[   23.230421] tegra_watchdog_touch
+<4>[   23.230955] nct1008_get_temp: ret temp=34C 
+<4>[   28.240477] tegra_watchdog_touch
+<6>[   28.240717] rd: finish
+<4>[   28.241268] nct1008_get_temp: ret temp=34C 
+<4>[   33.250731] tegra_watchdog_touch
+<4>[   33.251863] nct1008_get_temp: ret temp=34C 
+<7>[   33.311043] tegra CPU: force EDP limit 1300000 kHz
+<4>[   33.311228] CPU1: Booted secondary processor
+<4>[   34.420615] stop_machine_cpu_stop cpu=0
+<4>[   34.420695] stop_machine_cpu_stop cpu=1
+<4>[   34.421181] __stop_cpus: wait_for_completion_timeout+
+<4>[   34.421440] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   34.421577] CPU1: clean shutdown
+<4>[   36.310523] CPU1: Booted secondary processor
+<4>[   37.420605] stop_machine_cpu_stop cpu=0
+<4>[   37.420687] stop_machine_cpu_stop cpu=1
+<4>[   37.421283] __stop_cpus: wait_for_completion_timeout+
+<4>[   37.421434] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   37.421679] CPU1: clean shutdown
+<4>[   38.260518] tegra_watchdog_touch
+<4>[   38.261217] nct1008_get_temp: ret temp=34C 
+<7>[   41.660968] tegra CPU: force EDP limit 1300000 kHz
+<4>[   41.661164] CPU1: Booted secondary processor
+<4>[   42.760602] stop_machine_cpu_stop cpu=0
+<4>[   42.760683] stop_machine_cpu_stop cpu=1
+<4>[   42.761279] __stop_cpus: wait_for_completion_timeout+
+<4>[   42.761428] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   42.761673] CPU1: clean shutdown
+<4>[   43.270476] tegra_watchdog_touch
+<4>[   43.272080] nct1008_get_temp: ret temp=34C 
+<7>[   47.430964] tegra CPU: force EDP limit 1300000 kHz
+<4>[   47.431170] CPU1: Booted secondary processor
+<4>[   48.280530] tegra_watchdog_touch
+<4>[   48.281286] nct1008_get_temp: ret temp=34C 
+<4>[   48.540607] stop_machine_cpu_stop cpu=0
+<4>[   48.540688] stop_machine_cpu_stop cpu=1
+<4>[   48.541275] __stop_cpus: wait_for_completion_timeout+
+<4>[   48.541426] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   48.541669] CPU1: clean shutdown
+<4>[   53.290470] tegra_watchdog_touch
+<4>[   53.291286] nct1008_get_temp: ret temp=34C 
+<4>[   58.300533] tegra_watchdog_touch
+<4>[   58.303164] nct1008_get_temp: ret temp=34C 
+<4>[   63.310628] tegra_watchdog_touch
+<4>[   63.311356] nct1008_get_temp: ret temp=34C 
+<5>[   68.107055] asuspec: [asuspec_send_ec_req] send EC_Request
+<5>[   68.180277] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[   68.180393] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[   68.320575] tegra_watchdog_touch
+<4>[   68.321290] nct1008_get_temp: ret temp=34C 
+<4>[   68.376142] pad_get_capacity val->intval=100 ret=99
+<4>[   68.380465] pad_get_psp voltage_now =8321
+<4>[   68.385177] pad_get_psp  bat_temp=3013
+<4>[   68.389958] pad_get_psp  val->intval=Full ret=80
+<4>[   68.417188] system_mode_set system_mode=1
+<6>[   68.462494] request_suspend_state: wakeup (3->0) at 62462113003 (2012-01-23 02:20:53.856202002 UTC)
+<4>[   68.484254] DIDIM check brightness=26 
+<4>[   68.644613] CPU1: Booted secondary processor
+<4>[   68.668559] [BCM29] wifi_set_power = 1
+<4>[   69.040948] [BCM29] wifi_set_carddetect = 1
+<6>[   69.041045] [mmc]:mmc_schedule_delayed_work:87 mmc1: delay 20
+<4>[   69.049572] [BCM29] 
+<4>[   69.049579] Dongle Host Driver, version 4.218.248.23
+<6>[   69.240466] [mmc]:mmc_rescan:1591 mmc1: gpio_69:0 rescan_disable 0
+<4>[   69.240585] mmc1 clock request: 187KHz. currently 12000KHz
+<4>[   69.260481] mmc1 clock request: 187KHz. currently 12000KHz
+<6>[   69.294621] [mmc]:mmc_rescan:1656 mmc1:attach sdio
+<4>[   69.297933] mmc1: mmc_set_clock to 48000000
+<4>[   69.298086] mmc1 clock request: 48000KHz. currently 48000KHz
+<6>[   69.301551] mmc1: new high speed SDIO card at address 0001
+<4>[   69.305515] [BCM29] DHD: dongle ram size is set to 294912(orig 294912)
+<5>[   69.396846] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<4>[   69.443649] [BCM29] Firmware version = wl0: May  6 2011 13:09:28 version 4.218.248.31
+<4>[   69.569333] [BCM29] wlan0: Broadcom Dongle Host Driver mac=c8:60:00:11:e3:0b
+<6>[   69.570830] [mmc]:mmc_rescan:1723 mmc1: finished, extend_wakelock 0 ret 0
+<4>[   69.630538] CPU2: Booted secondary processor
+<6>[   69.668572] [VIB]: vibrator_enable: 1
+<6>[   69.690057] [VIB]: vibrator_enable: 21
+<6>[   69.694897] tegra_usb_resume+
+<6>[   69.700819] tegra_usb_resume-
+<5>[   70.431533] asusdec: [asusdec_open]  CPU3: Booted secondary processor
+<4>[   70.850687] light sensor info : al3010 power off , init in al3010_later_init 
+<5>[   70.930474] asusdec: [asusdec_ioctl] ASUSDEC_EC_WAKEUP, arg = 0
+<5>[   70.930582] asusdec: [asusdec_ioctl] Set EC shutdown when PAD in LP0
+<5>[   70.941958] asusdec: [asusdec_release]  [BCM29] wl_iw_set_country: set country for GB as EU rev 5 is OK
+<4>[   72.691130] stop_machine_cpu_stop cpu=2
+<4>[   72.691145] stop_machine_cpu_stop cpu=0
+<4>[   72.691160] stop_machine_cpu_stop cpu=1
+<4>[   72.691175] stop_machine_cpu_stop cpu=3
+<4>[   72.692223] __stop_cpus: wait_for_completion_timeout+
+<4>[   72.692399] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   72.692661] CPU1: clean shutdown
+<4>[   73.330631] tegra_watchdog_touch
+<4>[   73.331409] nct1008_get_temp: ret temp=36C 
+<4>[   74.608927] kxtf9_resume+
+<4>[   74.612800] kxtf9_resume-
+<4>[   74.621642] kxtf9 open config file success
+<4>[   74.621809] kxtf9 config content is : 1053 -1011  1025 -1035  1014 -1047
+<4>[   74.621895] kxtf9: offset: 21 -5 -17
+<4>[   74.630577] CPU1: Booted secondary processor
+<6>[   75.020651] tegra_usb_suspend+
+<6>[   75.020771] tegra_usb_suspend: before ehci_halt
+<6>[   75.020869] tegra_usb_suspend: after ehci_halt, ret = 0
+<3>[   75.026167] utmi_phy_clk_disable: timeout waiting for phy to stabilize
+<6>[   75.026245] tegra_usb_suspend-
+<4>[   75.780700] stop_machine_cpu_stop cpu=0
+<4>[   75.780719] stop_machine_cpu_stop cpu=1
+<4>[   75.780731] stop_machine_cpu_stop cpu=2
+<4>[   75.780797] stop_machine_cpu_stop cpu=3
+<4>[   75.781717] __stop_cpus: wait_for_completion_timeout+
+<4>[   75.781989] __stop_cpus: smp=2 done.executed=1 done.ret =0-
+<5>[   75.782129] CPU1: clean shutdown
+<6>[   76.274219] mtp_open
+<5>[   77.424693] asusdec: [asusdec_open]  
+<5>[   77.424790] asusdec: [asusdec_ioctl] ASUSDEC_TP_CONTROL
+<5>[   77.426227] asusdec: [asusdec_release]  
+<5>[   77.467130] asusdec: [asusdec_open]  
+<5>[   77.467295] asusdec: [asusdec_ioctl] ASUSDEC_TP_CONTROL
+<5>[   77.469051] asusdec: [asusdec_release]  stop_machine_cpu_stop cpu=0
+<4>[   77.780643] stop_machine_cpu_stop cpu=3
+<4>[   77.780656] stop_machine_cpu_stop cpu=2
+<4>[   77.781473] __stop_cpus: wait_for_completion_timeout+
+<4>[   77.781629] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   77.781875] CPU2: clean shutdown
+<4>[   78.340548] tegra_watchdog_touch
+<4>[   78.341907] nct1008_get_temp: ret temp=36C 
+<4>[   79.630622] CPU1: Booted secondary processor
+<7>[   80.660498] wlan0: no IPv6 routers present
+<4>[   80.750635] stop_machine_cpu_stop cpu=0
+<4>[   80.750651] stop_machine_cpu_stop cpu=3
+<4>[   80.750711] stop_machine_cpu_stop cpu=1
+<4>[   80.751462] __stop_cpus: wait_for_completion_timeout+
+<4>[   80.751720] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   80.751859] CPU1: clean shutdown
+<4>[   82.620994] CPU1: Booted secondary processor
+<4>[   83.350495] tegra_watchdog_touch
+<4>[   83.351179] nct1008_get_temp: ret temp=36C 
+<4>[   83.621032] CPU2: Booted secondary processor
+<4>[   87.750671] stop_machine_cpu_stop cpu=1
+<4>[   87.750689] stop_machine_cpu_stop cpu=3
+<4>[   87.750702] stop_machine_cpu_stop cpu=0
+<4>[   87.750717] stop_machine_cpu_stop cpu=2
+<4>[   87.751673] __stop_cpus: wait_for_completion_timeout+
+<4>[   87.751940] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   87.752081] CPU1: clean shutdown
+<4>[   88.360539] tegra_watchdog_touch
+<4>[   88.361415] nct1008_get_temp: ret temp=36C 
+<4>[   89.750658] stop_machine_cpu_stop cpu=0
+<4>[   89.750675] stop_machine_cpu_stop cpu=3
+<4>[   89.750733] stop_machine_cpu_stop cpu=2
+<4>[   89.751513] __stop_cpus: wait_for_completion_timeout+
+<4>[   89.751772] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   89.751911] CPU2: clean shutdown
+<4>[   91.750635] stop_machine_cpu_stop cpu=0
+<4>[   91.750715] stop_machine_cpu_stop cpu=3
+<4>[   91.751353] __stop_cpus: wait_for_completion_timeout+
+<4>[   91.751506] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   91.751755] CPU3: clean shutdown
+<4>[   93.370631] tegra_watchdog_touch
+<4>[   93.371381] nct1008_get_temp: ret temp=35C 
+<4>[   93.630576] CPU1: Booted secondary processor
+<4>[   95.740610] stop_machine_cpu_stop cpu=0
+<4>[   95.740691] stop_machine_cpu_stop cpu=1
+<4>[   95.741322] __stop_cpus: wait_for_completion_timeout+
+<4>[   95.741472] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[   95.741714] CPU1: clean shutdown
+<4>[   97.630542] CPU1: Booted secondary processor
+<6>[   97.691990] [VIB]: vibrator_enable: 20
+<4>[   98.380468] tegra_watchdog_touch
+<4>[   98.381066] nct1008_get_temp: ret temp=36C 
+<4>[   99.621092] CPU2: Booted secondary processor
+<4>[  100.750453] stop_machine_cpu_stop cpu=0
+<4>[  100.750460] stop_machine_cpu_stop cpu=1
+<4>[  100.750499] stop_machine_cpu_stop cpu=2
+<4>[  100.750950] __stop_cpus: wait_for_completion_timeout+
+<4>[  100.751028] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[  100.751152] CPU1: clean shutdown
+<3>[  100.759007] init: untracked pid 890 exited
+<4>[  103.390537] tegra_watchdog_touch
+<4>[  103.391357] nct1008_get_temp: ret temp=35C 
+<4>[  103.740695] stop_machine_cpu_stop cpu=0
+<4>[  103.740776] stop_machine_cpu_stop cpu=2
+<4>[  103.741437] __stop_cpus: wait_for_completion_timeout+
+<4>[  103.741588] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[  103.741896] CPU2: clean shutdown
+<3>[  105.621300] G=>LP: prolog 23 us, switch 160 us, epilog 28 us, total 211 us
+<4>[  108.400765] tegra_watchdog_touch
+<4>[  108.402368] nct1008_get_temp: ret temp=34C 
+<3>[  110.252768] LP=>G: prolog 21 us, switch 2131 us, epilog 24 us, total 2176 us
+<3>[  111.250823] G=>LP: prolog 23 us, switch 159 us, epilog 28 us, total 210 us
+<4>[  113.411168] tegra_watchdog_touch
+<4>[  113.412521] nct1008_get_temp: ret temp=33C 
+<3>[  115.092754] LP=>G: prolog 21 us, switch 2131 us, epilog 24 us, total 2176 us
+<3>[  116.090909] G=>LP: prolog 23 us, switch 159 us, epilog 26 us, total 208 us
+<3>[  116.492762] LP=>G: prolog 21 us, switch 2133 us, epilog 23 us, total 2177 us
+<3>[  117.490814] G=>LP: prolog 23 us, switch 160 us, epilog 27 us, total 210 us
+<4>[  118.420621] tegra_watchdog_touch
+<4>[  118.421342] nct1008_get_temp: ret temp=33C 
+<3>[  121.322743] LP=>G: prolog 21 us, switch 2131 us, epilog 23 us, total 2175 us
+<3>[  122.321068] G=>LP: prolog 17 us, switch 356 us, epilog 24 us, total 397 us
+<4>[  123.430415] tegra_watchdog_touch
+<4>[  123.432252] nct1008_get_temp: ret temp=33C 
+<4>[  128.440786] tegra_watchdog_touch
+<4>[  128.442548] nct1008_get_temp: ret temp=32C 
+<4>[  133.450792] tegra_watchdog_touch
+<4>[  133.452569] nct1008_get_temp: ret temp=32C 
+<4>[  136.085557] battery_status_poll 120 1 
+<5>[  136.086850] asuspec: [asuspec_send_ec_req] send EC_Request
+<5>[  136.163027] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[  136.164075] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[  136.365249] pad_get_psp  val->intval=Full ret=80
+<4>[  136.369690] pad_get_psp voltage_now =8358
+<4>[  136.375031] pad_get_capacity val->intval=100 ret=99
+<4>[  136.379724] pad_get_psp  bat_temp=3015
+<4>[  136.392488] pad_get_capacity val->intval=100 ret=99
+<4>[  136.397489] pad_get_psp voltage_now =8358
+<4>[  136.402269] pad_get_psp  bat_temp=3015
+<4>[  136.407038] pad_get_psp  val->intval=Full ret=80
+<5>[  137.418495] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<4>[  138.460977] tegra_watchdog_touch
+<4>[  138.463778] nct1008_get_temp: ret temp=32C 
+<4>[  143.470595] tegra_watchdog_touch
+<4>[  143.474386] nct1008_get_temp: ret temp=32C 
+<4>[  148.480760] tegra_watchdog_touch
+<4>[  148.484397] nct1008_get_temp: ret temp=32C 
+<4>[  153.491008] tegra_watchdog_touch
+<4>[  153.494830] nct1008_get_temp: ret temp=31C 
+<4>[  158.502586] tegra_watchdog_touch
+<4>[  158.508630] nct1008_get_temp: ret temp=31C 
+<4>[  163.520656] tegra_watchdog_touch
+<4>[  163.522483] nct1008_get_temp: ret temp=31C 
+<4>[  168.540810] tegra_watchdog_touch
+<4>[  168.543149] nct1008_get_temp: ret temp=31C 
+<4>[  173.550685] tegra_watchdog_touch
+<4>[  173.553014] nct1008_get_temp: ret temp=31C 
+<3>[  174.992783] LP=>G: prolog 22 us, switch 2132 us, epilog 25 us, total 2179 us
+<4>[  176.020528] CPU1: Booted secondary processor
+<4>[  177.130679] stop_machine_cpu_stop cpu=0
+<4>[  177.130760] stop_machine_cpu_stop cpu=1
+<4>[  177.131438] __stop_cpus: wait_for_completion_timeout+
+<4>[  177.131590] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[  177.131904] CPU1: clean shutdown
+<4>[  178.560541] tegra_watchdog_touch
+<4>[  178.568548] nct1008_get_temp: ret temp=33C 
+<3>[  179.010863] G=>LP: prolog 18 us, switch 155 us, epilog 24 us, total 197 us
+<3>[  180.742703] LP=>G: prolog 15 us, switch 2128 us, epilog 21 us, total 2164 us
+<4>[  181.758216] CPU1: Booted secondary processor
+<4>[  182.860616] stop_machine_cpu_stop cpu=0
+<4>[  182.860698] stop_machine_cpu_stop cpu=1
+<4>[  182.861326] __stop_cpus: wait_for_completion_timeout+
+<4>[  182.861477] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[  182.861723] CPU1: clean shutdown
+<4>[  183.573888] tegra_watchdog_touch
+<4>[  183.576508] nct1008_get_temp: ret temp=33C 
+<3>[  184.740719] G=>LP: prolog 17 us, switch 156 us, epilog 24 us, total 197 us
+<6>[  184.950359] [VIB]: vibrator_enable: 10
+<6>[  184.980847] [VIB]: vibrator_enable: 30
+<3>[  185.142743] LP=>G: prolog 21 us, switch 2131 us, epilog 24 us, total 2176 us
+<6>[  185.143189] [VIB]: vibrator_enable: 10
+<6>[  185.173591] [VIB]: vibrator_enable: 30
+<6>[  185.284014] [VIB]: vibrator_enable: 10
+<6>[  185.315121] [VIB]: vibrator_enable: 30
+<6>[  185.462499] [VIB]: vibrator_enable: 10
+<6>[  185.492823] [VIB]: vibrator_enable: 30
+<4>[  186.151275] CPU1: Booted secondary processor
+<4>[  188.580403] tegra_watchdog_touch
+<4>[  188.580960] nct1008_get_temp: ret temp=34C 
+<4>[  191.260627] stop_machine_cpu_stop cpu=0
+<4>[  191.260709] stop_machine_cpu_stop cpu=1
+<4>[  191.261233] __stop_cpus: wait_for_completion_timeout+
+<4>[  191.261490] __stop_cpus: smp=0 done.executed=1 done.ret =0-
+<5>[  191.261631] CPU1: clean shutdown
+<3>[  193.140815] G=>LP: prolog 17 us, switch 156 us, epilog 24 us, total 197 us
+<4>[  193.590418] tegra_watchdog_touch
+<4>[  193.592138] nct1008_get_temp: ret temp=33C 
+<4>[  198.610802] tegra_watchdog_touch
+<4>[  198.612365] nct1008_get_temp: ret temp=32C 
+<4>[  203.620845] tegra_watchdog_touch
+<4>[  203.623314] nct1008_get_temp: ret temp=32C 
+<4>[  208.640793] tegra_watchdog_touch
+<4>[  208.646220] nct1008_get_temp: ret temp=31C 
+<4>[  213.660791] tegra_watchdog_touch
+<4>[  213.665213] nct1008_get_temp: ret temp=31C 
+<4>[  218.670681] tegra_watchdog_touch
+<4>[  218.675054] nct1008_get_temp: ret temp=31C 
+<4>[  223.680773] tegra_watchdog_touch
+<4>[  223.682490] nct1008_get_temp: ret temp=31C 
+<4>[  228.690786] tegra_watchdog_touch
+<4>[  228.693784] nct1008_get_temp: ret temp=31C 
+<4>[  233.700789] tegra_watchdog_touch
+<4>[  233.702562] nct1008_get_temp: ret temp=31C 
+<4>[  238.710683] tegra_watchdog_touch
+<4>[  238.714614] nct1008_get_temp: ret temp=31C 
+<4>[  243.720773] tegra_watchdog_touch
+<4>[  243.722483] nct1008_get_temp: ret temp=31C 
+<4>[  248.730788] tegra_watchdog_touch
+<4>[  248.733741] nct1008_get_temp: ret temp=31C 
+<4>[  253.740797] tegra_watchdog_touch
+<4>[  253.743073] nct1008_get_temp: ret temp=31C 
+<4>[  256.400513] battery_status_poll 120 1 
+<5>[  256.401009] asuspec: [asuspec_send_ec_req] send EC_Request
+<5>[  256.469278] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[  256.469645] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[  256.685174] pad_get_psp  val->intval=Full ret=80
+<4>[  256.689110] pad_get_psp voltage_now =8362
+<4>[  256.695203] pad_get_capacity val->intval=100 ret=99
+<4>[  256.700131] pad_get_psp  bat_temp=3015
+<4>[  256.713892] pad_get_capacity val->intval=100 ret=99
+<4>[  256.719481] pad_get_psp voltage_now =8362
+<4>[  256.725234] pad_get_psp  bat_temp=3015
+<4>[  256.730859] pad_get_psp  val->intval=Full ret=80
+<5>[  257.740042] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<4>[  258.750810] tegra_watchdog_touch
+<4>[  258.752822] nct1008_get_temp: ret temp=31C 
+<4>[  263.760784] tegra_watchdog_touch
+<4>[  263.763455] nct1008_get_temp: ret temp=31C 
+<4>[  268.780797] tegra_watchdog_touch
+<4>[  268.786381] nct1008_get_temp: ret temp=31C 
+<4>[  273.800787] tegra_watchdog_touch
+<4>[  273.806375] nct1008_get_temp: ret temp=31C 
+<4>[  278.820790] tegra_watchdog_touch
+<4>[  278.826781] nct1008_get_temp: ret temp=31C 
+<4>[  283.830677] tegra_watchdog_touch
+<4>[  283.834601] nct1008_get_temp: ret temp=31C 
+<4>[  288.840797] tegra_watchdog_touch
+<4>[  288.843045] nct1008_get_temp: ret temp=31C 
+<4>[  293.850793] tegra_watchdog_touch
+<4>[  293.853481] nct1008_get_temp: ret temp=31C 
+<4>[  298.860784] tegra_watchdog_touch
+<4>[  298.863740] nct1008_get_temp: ret temp=31C 
+<4>[  303.878621] tegra_watchdog_touch
+<4>[  303.880168] nct1008_get_temp: ret temp=31C 
+<4>[  308.890796] tegra_watchdog_touch
+<4>[  308.893513] nct1008_get_temp: ret temp=31C 
+<4>[  313.900681] tegra_watchdog_touch
+<4>[  313.904636] nct1008_get_temp: ret temp=31C 
+<4>[  318.910687] tegra_watchdog_touch
+<4>[  318.914625] nct1008_get_temp: ret temp=31C 
+<4>[  323.920823] tegra_watchdog_touch
+<4>[  323.923295] nct1008_get_temp: ret temp=31C 
+<4>[  328.930804] tegra_watchdog_touch
+<4>[  328.932832] nct1008_get_temp: ret temp=31C 
+<4>[  333.940685] tegra_watchdog_touch
+<4>[  333.944655] nct1008_get_temp: ret temp=31C 
+<4>[  338.960787] tegra_watchdog_touch
+<4>[  338.966370] nct1008_get_temp: ret temp=31C 
+<4>[  343.980782] tegra_watchdog_touch
+<4>[  343.986332] nct1008_get_temp: ret temp=31C 
+<4>[  348.990790] tegra_watchdog_touch
+<4>[  348.993480] nct1008_get_temp: ret temp=31C 
+<4>[  354.000810] tegra_watchdog_touch
+<4>[  354.002611] nct1008_get_temp: ret temp=31C 
+<4>[  359.020794] tegra_watchdog_touch
+<4>[  359.026389] nct1008_get_temp: ret temp=31C 
+<4>[  364.030856] tegra_watchdog_touch
+<4>[  364.036856] nct1008_get_temp: ret temp=31C 
+<4>[  369.040712] tegra_watchdog_touch
+<4>[  369.043465] nct1008_get_temp: ret temp=31C 
+<4>[  374.060787] tegra_watchdog_touch
+<4>[  374.066367] nct1008_get_temp: ret temp=31C 
+<4>[  376.720735] battery_status_poll 120 1 
+<5>[  376.722361] asuspec: [asuspec_send_ec_req] send EC_Request
+<5>[  376.790512] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[  376.791560] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[  376.995578] pad_get_psp  val->intval=Full ret=80
+<4>[  377.000105] pad_get_psp voltage_now =8367
+<4>[  377.004951] pad_get_capacity val->intval=100 ret=99
+<4>[  377.009758] pad_get_psp  bat_temp=3016
+<4>[  377.019946] pad_get_capacity val->intval=100 ret=99
+<4>[  377.025602] pad_get_psp voltage_now =8367
+<4>[  377.030443] pad_get_psp  bat_temp=3016
+<4>[  377.035273] pad_get_psp  val->intval=Full ret=80
+<5>[  378.039156] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<4>[  379.070811] tegra_watchdog_touch
+<4>[  379.072769] nct1008_get_temp: ret temp=31C 
+<4>[  384.083602] tegra_watchdog_touch
+<4>[  384.088431] nct1008_get_temp: ret temp=31C 
+<4>[  389.110814] tegra_watchdog_touch
+<4>[  389.113177] nct1008_get_temp: ret temp=31C 
+<4>[  394.120684] tegra_watchdog_touch
+<4>[  394.122548] nct1008_get_temp: ret temp=31C 
+<4>[  399.130788] tegra_watchdog_touch
+<4>[  399.138390] nct1008_get_temp: ret temp=31C 
+<4>[  404.144433] tegra_watchdog_touch
+<4>[  404.148324] nct1008_get_temp: ret temp=31C 
+<4>[  409.155512] tegra_watchdog_touch
+<4>[  409.158268] nct1008_get_temp: ret temp=31C 
+<4>[  414.166585] tegra_watchdog_touch
+<4>[  414.168635] nct1008_get_temp: ret temp=31C 
+<4>[  419.170652] tegra_watchdog_touch
+<4>[  419.175744] nct1008_get_temp: ret temp=31C 
+<4>[  424.180640] tegra_watchdog_touch
+<4>[  424.185726] nct1008_get_temp: ret temp=31C 
+<4>[  429.199812] tegra_watchdog_touch
+<4>[  429.201951] nct1008_get_temp: ret temp=31C 
+<4>[  434.211062] tegra_watchdog_touch
+<4>[  434.214706] nct1008_get_temp: ret temp=31C 
+<4>[  439.221011] tegra_watchdog_touch
+<4>[  439.224852] nct1008_get_temp: ret temp=31C 
+<4>[  444.233029] tegra_watchdog_touch
+<4>[  444.234840] nct1008_get_temp: ret temp=31C 
+<4>[  449.240789] tegra_watchdog_touch
+<4>[  449.244787] nct1008_get_temp: ret temp=31C 
+<4>[  454.255134] tegra_watchdog_touch
+<4>[  454.258334] nct1008_get_temp: ret temp=31C 
+<4>[  459.260658] tegra_watchdog_touch
+<4>[  459.265755] nct1008_get_temp: ret temp=31C 
+<4>[  464.277256] tegra_watchdog_touch
+<4>[  464.278818] nct1008_get_temp: ret temp=31C 
+<4>[  469.280650] tegra_watchdog_touch
+<4>[  469.286212] nct1008_get_temp: ret temp=31C 
+<4>[  474.290694] tegra_watchdog_touch
+<4>[  474.295837] nct1008_get_temp: ret temp=31C 
+<4>[  478.555206] DIDIM check brightness=22 
+<4>[  478.572387] DIDIM check brightness=19 
+<4>[  478.590301] DIDIM check brightness=16 
+<4>[  478.607341] DIDIM check brightness=13 
+<4>[  478.623413] DIDIM check brightness=9 
+<4>[  478.639523] DIDIM check brightness=6 
+<4>[  478.656857] DIDIM check brightness=3 
+<4>[  479.310607] tegra_watchdog_touch
+<4>[  479.312700] nct1008_get_temp: ret temp=31C 
+<4>[  484.320995] tegra_watchdog_touch
+<4>[  484.324784] nct1008_get_temp: ret temp=31C 
+<4>[  485.566223] DIDIM check brightness=0 
+<4>[  485.582620] DIDIM check brightness=0 
+<4>[  485.583277] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<6>[  485.587574] request_suspend_state: sleep (0->3) at 479587120002 (2012-01-23 02:27:50.981203001 UTC)
+<6>[  485.588278] early_suspend: call handlers
+<4>[  485.589313] [BCM29] Wi-Fi early-suspend+
+<4>[  485.608368] [BCM29] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=20
+<4>[  485.614646] [BCM29] Wi-Fi early-suspend-
+<4>[  485.616637] kxtf9_suspend+
+<4>[  485.617217] MXT Early Suspended
+<6>[  485.618661] stop_drawing_early_suspended
+<4>[  485.622347] DIDIM check brightness=0 
+<4>[  485.622707] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<6>[  485.623283] cardhu_panel_early_suspended
+<6>[  485.623589] early_suspend: sync
+<4>[  485.630518] kxtf9_suspend-
+<4>[  485.697232] [BCM29] 
+<4>[  485.697237] ### wl_iw_set_pno_set: info->cmd:8b0c, info->flags:0, u.data=0xbeef9604, u.len=36
+<4>[  485.712765] [BCM29] dhd_pno_set set OK with PNO time=30 repeat=4 max_adjust=3
+<4>[  485.713486] [BCM29] dhd_pno_set set OK with PNO time=30 repeat=4 max_adjust=3
+<4>[  489.330847] tegra_watchdog_touch
+<4>[  489.333453] nct1008_get_temp: ret temp=31C 
+<4>[  490.766157] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<3>[  490.877215] LP=>G: prolog 18 us, switch 2128 us, epilog 22 us, total 2168 us
+<3>[  491.881023] G=>LP: prolog 18 us, switch 155 us, epilog 24 us, total 197 us
+<4>[  494.340432] tegra_watchdog_touch
+<4>[  494.342228] nct1008_get_temp: ret temp=31C 
+<4>[  497.050890] battery_status_poll 120 1 
+<5>[  497.051723] asuspec: [asuspec_send_ec_req] send EC_Request
+<5>[  497.121549] asuspec: [asuspec_work_function] 0x2 0x81 0x50 0xff
+<5>[  497.122138] asuspec: [asuspec_smi] ASUSPEC_SMI_HANDSHAKING
+<4>[  497.325482] pad_get_psp  val->intval=Full ret=80
+<4>[  497.331395] pad_get_psp voltage_now =8373
+<4>[  497.337088] pad_get_capacity val->intval=100 ret=99
+<4>[  497.341978] pad_get_psp  bat_temp=3016
+<4>[  497.354098] pad_get_capacity val->intval=100 ret=99
+<4>[  497.358813] pad_get_psp voltage_now =8373
+<4>[  497.363654] pad_get_psp  bat_temp=3016
+<4>[  497.368577] pad_get_psp  val->intval=Full ret=80
+<4>[  497.401333] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<5>[  498.369970] asuspec: [asuspec_enter_s3_work_function] EC in S3
+<4>[  499.351009] tegra_watchdog_touch
+<4>[  499.352776] nct1008_get_temp: ret temp=31C 
+<4>[  504.055005] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  504.360902] tegra_watchdog_touch
+<4>[  504.362669] nct1008_get_temp: ret temp=31C 
+<4>[  509.370945] tegra_watchdog_touch
+<4>[  509.372764] nct1008_get_temp: ret temp=31C 
+<4>[  510.690173] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  514.380936] tegra_watchdog_touch
+<4>[  514.382712] nct1008_get_temp: ret temp=31C 
+<4>[  517.346219] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  519.390912] tegra_watchdog_touch
+<4>[  519.393132] nct1008_get_temp: ret temp=30C 
+<4>[  523.993757] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  524.401085] tegra_watchdog_touch
+<4>[  524.402860] nct1008_get_temp: ret temp=30C 
+<4>[  529.411142] tegra_watchdog_touch
+<4>[  529.414423] nct1008_get_temp: ret temp=30C 
+<4>[  530.633208] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  534.421178] tegra_watchdog_touch
+<4>[  534.423678] nct1008_get_temp: ret temp=30C 
+<4>[  537.274047] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  539.432349] tegra_watchdog_touch
+<4>[  539.434121] nct1008_get_temp: ret temp=30C 
+<4>[  543.913180] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  544.440880] tegra_watchdog_touch
+<4>[  544.442647] nct1008_get_temp: ret temp=30C 
+<4>[  549.451000] tegra_watchdog_touch
+<4>[  549.453987] nct1008_get_temp: ret temp=30C 
+<4>[  550.552842] [BCM29] wl_iw_combined_scan_set: Scan called when PNO is active
+<4>[  554.461068] tegra_watchdog_touch
+<4>[  554.462844] nct1008_get_temp: ret temp=30C 
