@@ -53,7 +53,7 @@ pwrsavemode.sh
 
 readelf-A.txt
 	adb pull /system/bin/dalvikvm dalvikvm
-	/path/to/toolchain/bin/arm-none-linux-gnueabi-readelf -a dalvikvm
+	/path/to/toolchain/bin/arm-none-linux-gnueabi-readelf -A dalvikvm
 
 turbomode.sh
 	/system/etc/turbomode.sh
