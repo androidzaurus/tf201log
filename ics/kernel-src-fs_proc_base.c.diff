@@ -1,0 +1,21 @@
+--- common/fs/proc/base.c	2012-03-22 16:58:59.035104079 +0900
++++ tegra3/fs/proc/base.c	2012-01-05 13:45:08.000000000 +0900
+@@ -888,10 +888,6 @@
+ 	return ret;
+ }
+ 
+-#define mem_write NULL
+-
+-#ifndef mem_write
+-/* This is a security hazard */
+ static ssize_t mem_write(struct file * file, const char __user *buf,
+ 			 size_t count, loff_t *ppos)
+ {
+@@ -948,7 +944,6 @@
+ out_no_task:
+ 	return copied;
+ }
+-#endif
+ 
+ loff_t mem_lseek(struct file *file, loff_t offset, int orig)
+ {
