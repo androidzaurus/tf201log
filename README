@@ -2,6 +2,9 @@ README
 	this file
 	various log files collected from Transformer Prime (TF201)
 
+ics/*
+	logs from Ice Cream Sandwich
+
 asusdec-ja_JP.kl
 	/system/etc/user/keylayouts/asusdec-ja_JP.kl
 
