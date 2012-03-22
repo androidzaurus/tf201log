@@ -1,0 +1,9 @@
+Filesystem             Size   Used   Free   Blksize
+/dev                   491M    32K   491M   4096
+/mnt/asec              491M     0K   491M   4096
+/mnt/obb               491M     0K   491M   4096
+/system                503M   467M    36M   4096
+/data                   56G     2G    53G   4096
+/cache                 421M     7M   414M   4096
+/Removable             491M     0K   491M   4096
+/mnt/sdcard             56G     2G    53G   4096
